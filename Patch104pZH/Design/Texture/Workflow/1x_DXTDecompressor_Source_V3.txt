@@ -1,0 +1,10 @@
+Source: https://openmodeldb.info/models/1x-DXTDecompressor-Source-V3
+
+DDS textures decompressed with 1x_DXTDecompressor_Source_V3 must be color corrected:
+
+Adjustment Color Balance:
+* Green: +4
+* Preserve Luminosity
+
+Adjustment Brightness/Contrast:
+* Brightness: -2
