@@ -1,0 +1,6728 @@
+
+
+-----------------------------------
+
+### cbairport_s, cbairport_ds, cbairport_es, cbairport_rs, cbairport_sg, cbairport_dsg
+
+* Creates 2x upscale to 512x512
+* Fixes cyan snow
+* Fixes gaps in snow
+
+### cbairport_n, cbairport_dn, cbairport_ng, cbairport_dng
+
+* Fixes black level
+* Recreates house lights
+
+### cbairport_en, cbairport_rn
+
+* Fixes incorrect night light
+
+### cbairport_sn, cbairport_dsn, cbairport_sng, cbairport_dsng
+
+* Creates 2x upscale to 512x512
+* Recreates house lights
+
+### cbairport_esn, cbairport_rsn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbapt01
+
+* Adds missing window reflections
+* Fixes alpha discrepancy of antenna with cbapt01_d
+
+### cbapt01_d, cbapt01_dg, cbapt01_ds, cbapt01_dsg
+
+* Fixes window damage visuals
+* Fixes window reflection errors
+
+### cbapt01_e, cbapt01_es
+
+* Improves window cutouts in alpha channel
+* Fixes vent damages in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbapt01_r, cbapt01_rs
+
+* Fixes minor alpha channel discrepancies with cbapt01_e, cbapt01_es
+* Fixes bright edges of texture damages
+* Improves window cutouts in alpha channel
+* Fixes vent damages in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbapt01_g, cbapt01_s, cbapt01_sg
+
+* Fixes window reflection errors
+
+### cbapt01_dn
+
+* Fixes minor light mismatches with cbapt01_n
+
+### cbapt01_dng
+
+* Fixes minor light mismatches with cbapt01_ng
+
+### cbapt01_en, cbapt01_rn, cbapt01_esn, cbapt01_rsn
+
+* Fixes incorrect night light
+
+### cbapt01_sn, cbapt01_dsn, cbapt01_sng, cbapt01_dsng
+
+* Recreates textures based on regular night textures
+
+-----------------------------------
+
+### cbarchse_gd
+
+* Fixes major texture damage inconsistencies with cbarchse_d
+
+### cbarchse_ng
+
+* Fixes minor light inaccuracies over window barricades
+
+!!! CBTARCHSE_GDN.w3d is duplicate of CBTARCHSE_DNG.w3d
+!!! CBTARCHSE_NG.w3d and CBTARCHSE_DNG.w3d use cbarchse_n.dds instead of cbarchse_ng.dds
+
+-----------------------------------
+
+### cbbrnshed_sg
+
+* Creates missing 2x upscale to 512x512
+
+### cbbrnshed_n, cbbrnshed_dn, cbbrnshed_ng, cbbrnshed_dng, cbbrnshed_sng
+
+* Recreates 2x upscale to 256x256 to match regular base texture size
+
+### cbbrnshed_sn, cbbrnshed_dsn, cbbrnshed_dsng
+
+* Recreates texture with slightly better visuals
+
+### cbbrnshed_en
+
+* Fixes incorrect night light
+
+### cbbrnshed_esn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbbunker01_en, cbbunker01_rn
+
+* Fixes incorrect night light
+
+### cbbunker01_esn, cbbunker01_rsn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbbaikgrnd_e
+
+* Window damages no longer misplaced compared to cbbaikgrnd_d
+
+-----------------------------------
+
+### cbbridgein_e
+
+* Fixes minor alpha channel inconsistencies with cbbridgein_d
+
+### cbbridgein_r
+
+* Fixes minor texture damage inconsistencies with cbbridgein_e
+* Fixes minor alpha channel inconsistencies with cbbridgein_e
+
+-----------------------------------
+
+### cbbridgewds_e
+
+* Fixes minor texture damage inconsistencies with cbbridgewds_d
+* Fixes alpha channel inconsistencies with cbbridgewds_r
+
+### cbbridgewds_r
+
+* Fixes minor texture damage inconsistencies with cbbridgewds_d
+
+-----------------------------------
+
+### cbchalet_es
+
+* Fixes snow drawing over burns
+
+### cbchalet_dn
+
+* Fixes major night light errors
+
+### cbchalet_en
+
+* Fixes incorrect night light
+
+### cbchalet_esn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbchalet2_d
+
+* Fixes window reflections damage mismatches
+
+### cbchalet2_e
+
+* Fixes minor texture damage inconsistencies with cbchalet2_d
+* Fixes window reflections damage mismatches
+
+### cbchalet2_g
+
+* Fixes window reflections drawing over window barricades
+
+### cbchalet2_dg
+
+* Fixes window reflections damage mismatches
+* Fixes window reflections drawing over window barricades
+
+### cbchalet2_ds, cbchalet2_dsg
+
+* Adds missing window damages
+* Adds missing bullet holes
+* Fixes errors in alpha channel
+
+### cbchalet2_es
+
+* Fixes window reflections damage mismatches
+
+### cbchalet2_rs
+
+* Adds additional damages
+* Fixes minor texture damage inconsistencies with cbchalet2_es
+* Fixes errors in alpha channel
+
+### cbchalet2_sg
+
+* Fixes window reflections drawing over window barricades
+
+### cbchalet2_dn
+
+* Creates a copy of original cbchalet_dn
+
+### cbchalet2_ng
+
+* Removes superfluous alpha channel
+
+### cbchalet2_dng
+
+* Fixes damage inconsistencies with cbchalet2_dn
+
+!!! cbchalet2_dn.w3d uses cbchalet_dn.dds but needs to use cbchalet2_dn.dds instead
+!!! cbchalet2_sn.w3d, cbchalet2_sng.w3d, cbchalet2_dsn.w3d, cbchalet2_dsng.w3d are missing and need to be created
+!!! cbchalet2_sg.w3d needs bones at fire ports hidden
+
+-----------------------------------
+
+### cbchalet3_e, cbchalet3_es
+
+* Removes unexpected window barricades of garrison textures
+* Fixes errors in alpha channel
+
+### cbchalet3_s, cbchalet3_ds
+
+* Fixes errors in alpha channel
+
+### cbchalet3_dn, cbchalet3_ng
+
+* Fixes night light saturation mismatch with cbchalet3_n
+
+### cbchalet3_dng
+
+* Fixes night light saturation mismatch with cbchalet3_n
+* Fixes missing night light damages
+
+!!! cbchalet3_sn.w3d, cbchalet3_sng.w3d, cbchalet3_dsn.w3d, cbchalet3_dsng.w3d are missing and need to be created
+
+-----------------------------------
+
+### cbchembunk
+
+* Fixes black section on top of containers
+* Decreases sharpness slightly
+
+### cbchembunk_d
+
+* Repaints damages based on cbchembunk_d1
+* Fixes texture sharpness inconsistencies with cbchembunk
+
+### cbchembunk_e
+
+* Repaints damages based on cbchembunk_d
+
+### cbchembunk_r
+
+* Creates 2x downscale to 256x256
+* Fixes texture damage inconsistencies with cbchembunk_e
+
+### cbchembunk_g
+
+* Fixes texture sharpness inconsistencies with cbchembunk
+* Removes green spots on walls
+
+### cbchembunk_dg
+
+* Fixes texture sharpness inconsistencies with cbchembunk_d
+* Fixes texture damage inconsistencies with cbchembunk_d
+
+### cbchembunk_s
+
+* Creates 2x downscale to 256x256
+* Fixes texture sharpness inconsistencies with cbchembunk
+* Improves snow blending
+
+### cbchembunk_ds
+
+* Creates 2x downscale to 256x256
+* Fixes snow drawing over burns
+* Reconstructs damages based on cbchembunk_d
+
+### cbchembunk_es
+
+* Creates 2x downscale to 256x256
+* Fixes snow drawing over burns
+* Reconstructs damages based on cbchembunk_e
+* Removes alpha channel
+
+### cbchembunk_rs
+
+* Creates 2x downscale to 256x256
+* Fixes snow drawing over burns
+* Reconstructs damages based on cbchembunk_r
+
+### cbchembunk_sg
+
+* Fixes texture sharpness inconsistencies with cbchembunk_s
+* Removes green spots on walls
+
+### cbchembunk_dsg
+
+* Fixes texture sharpness inconsistencies with cbchembunk_ds
+* Fixes snow drawing over burns
+* Reconstructs damages based on cbchembunk_d
+
+### cbchembunk_n, cbchembunk_ng, cbchembunk_sng
+
+* Creates 2x upscale to 256x256
+* Recreates feathered night lights
+* Removes wrong damages from texture
+
+### cbchembunk_dn
+
+* Recreates feathered night lights
+
+### cbchembunk_dng, cbchembunk_sn, cbchembunk_dsn, cbchembunk_dsng
+
+* Creates 2x upscale to 256x256
+* Recreates feathered night lights
+
+### cbchembunk_en, cbchembunk_esn
+
+* Fixes incorrect night light
+
+
+!!! cbchembunk_rn.w3d, cbchembunk_rsn.w3d use wrong rubble texture
+
+-----------------------------------
+
+### cbchemfact
+
+* Creates 2x upscale to 512x512
+* Adds missing window reflections
+
+### cbchemfact_g, cbchemfact_sg
+
+* Fixes minor artifacts on window reflections
+
+### cbchemfact_s
+
+* Removes window barricades from window reflections
+
+### cbchemfact_r
+
+* Removes traces of snow
+* Fixes minor damage inconsistencies with cbchemfact_e
+
+### cbchemfact_n, cbchemfact_dn, cbchemfact_dng, cbchemfact_dsn, cbchemfact_dsng
+
+* Creates 2x upscale to 256x256
+* Recreates night lights with less feather and more brightness
+
+### cbchemfact_ng
+
+* Creates 2x upscale to 256x256
+* Recreates night lights with less feather and more brightness
+* Fixes lightness inconsistency with cbchemfact_n
+
+### cbchemfact_en, cbchemfact_rn
+
+* Fixes incorrect night light
+
+!!!CBCHEMFACT_D.w3d, CBCHEMFACT_E.w3d, CBCHEMFACT_R.w3d has z clipping rubble
+!!!CBCHEMFACT_E.w3d is missing 1 tower
+!!!CBCHEMFACT_RS.w3d is using wrong rubble texture
+
+-----------------------------------
+
+(1)
+
+### cbcnvstr01
+
+* Fixes shop sign looking different to cbcnvstr01_d, cbcnvstr01_e, cbcnvstr01_r
+
+### cbcnvstr01_g
+
+* Fixes house texture brightness and details looking slightly different to cbcnvstr01_dg, cbcnvstr01_e, cbcnvstr01_r
+
+### cbcnvstr01_r
+
+* Fixes broken windows in alpha channel
+* Adds missing dirt to roof
+* Adds extra dirt to texture
+
+### cbcnvstr01_s, cbcnvstr01_ds, cbcnvstr01_es, cbcnvstr01_rs, cbcnvstr01_sg, cbcnvstr01_dsg
+
+* Creates 2x upscale to 512x512
+* Fixes wrong window reflections in alpha channel
+
+### cbcnvstr01_dn, cbcnvstr01_dng
+
+* Recreates night lights damages
+
+### cbcnvstr01_sn, cbcnvstr01_sng
+
+* Creates 2x upscale to 512x512
+* Fixes light shining through snow
+
+### cbcnvstr01_dsn, cbcnvstr01_dsng
+
+* Creates 2x upscale to 512x512
+* Fixes light shining through snow
+* Recreates night lights damages
+
+### cbcnvstr01_en, cbcnvstr01_esn
+
+* Fixes incorrect night lights
+
+(2)
+
+### cbcnvstr01
+
+* Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+* Fixes shapes of window reflections
+
+### cbcnvstr01_d
+
+* Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+* Fixes shapes of window reflections
+* Fixes window reflection damage inconsistencies with cbcnvstr01_dg
+* Removes incorrect black dot on a window reflection
+
+### cbcnvstr01_g
+
+* Fixes shapes of window reflections
+* Fixes shapes of window barricades on window reflections
+
+### cbcnvstr01_dg
+
+* Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+* Fixes shapes of window reflections
+* Fixes shapes of window barricades on window reflections
+
+### cbcnvstr01_e
+
+* Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+* Improves floor carpet in building
+* Fixes floating pixels in alpha channel
+
+### cbcnvstr01_r
+
+* Fixes texture inconsistencies on house facade and floor with cbcnvstr01_g
+* Improves floor carpet in building
+* Fixes floating pixels in alpha channel
+* Improves broken window visuals in alpha channel
+
+### cbcnvstr01_es
+
+* Improves floor carpet in building
+* Fixes floating pixels in alpha channel
+
+### cbcnvstr01_rs
+
+* Improves floor carpet in building
+* Fixes floating pixels in alpha channel
+* Improves broken window visuals in alpha channel
+
+### cbcnvstr01_n, cbcnvstr01_dn, cbcnvstr01_ng, cbcnvstr01_dng, cbcnvstr01_sn, cbcnvstr01_dsn, cbcnvstr01_sng, cbcnvstr01_dsng
+
+* Recreates house lights
+
+
+!!! cbcnvstr01_dn.w3d is not using cbcnvstr01_dn texture
+!!! cbcnvstr01_dsn.w3d is not using cbcnvstr01_dsn texture
+!!! cbcnvstr01_dsng.w3d is not using cbcnvstr01_dsng texture
+!!! sign on house roof is floating in models
+
+-----------------------------------
+
+cbnshack_g, cbnshack_dg, cbnshack_sg, cbnshack_dsg
+
+Removes 3 black burns from texture
+
+-----------------------------------
+
+cbsecrtlab_d, cbsecrtlab_e
+
+Fixes alpha channel damage inconsistencies with the actual texture
+
+cbsecrtlab_r
+
+Fixes major texture damage inconsistencies with cbsecrtlab_e
+Adds proper damages to alpha channel
+
+cbsecrtlab_dg
+
+Fixes texture sharpness inconsistencies with cbsecrtlab_d
+Fixes alpha channel damage inconsistencies with the actual texture
+
+cbsecrtlab_s, cbsecrtlab_sg
+
+Removes damages from texture
+
+cbsecrtlab_ds
+
+Repaints proper damages based on cbsecrtlab_s, cbsecrtlab_d
+Fixes alpha channel damage inconsistencies with the actual texture
+
+cbsecrtlab_es
+
+Repaints proper damages based on cbsecrtlab_ds, cbsecrtlab_e
+Fixes alpha channel damage inconsistencies with the actual texture
+
+cbsecrtlab_es
+
+Repaints proper damages based on cbsecrtlab_es, cbsecrtlab_r
+Adds proper damages to alpha channel
+
+cbsecrtlab_dsg
+
+Repaints proper damages based on cbsecrtlab_sg, cbsecrtlab_dg
+Fixes alpha channel damage inconsistencies with the actual texture
+
+-----------------------------------
+
+cbsovrdio_dg
+
+Fixes major wooden barricade mismatches with cbsovrdio_g
+
+cbsovrdio_n
+
+Fixes night lights hue mismatch with cbsovrdio_dn, cbsovrdio_ng
+
+cbsovrdio_dng
+
+Fixes texture not being a night texture
+
+cbsovrdio_e
+
+Fixes minor texture damage inconsistencies with cbsovrdio_dg
+Remove obsolete reflection left overs from alpha channel
+
+cbsovrdio_r
+
+Adds missing texture and alpha channel damages of cbsovrdio_e
+
+cbsovrdio_s, cbsovrdio_ds, cbsovrdio_es, cbsovrdio_rs, cbsovrdio_sg, cbsovrdio_dsg
+
+2x upscales texture
+
+-----------------------------------
+
+### cbgrashut1_e, cbgrashut1_es
+
+* Fixes floating pixels in alpha channel
+
+### cbgrashut1_r
+
+* Fixes minor texture damage inconsistencies with cbgrashut1_e
+* Fixes minor alpha channel damage inconsistencies with cbgrashut1_e
+
+### cbgrashut1_dg
+
+* Fixes minor texture damage inconsistencies with cbgrashut1_d
+
+### cbgrashut1_dsg
+
+* Fixes snow inconsistencies with cbgrashut1_ds
+
+### cbgrashut1_rs
+
+* Fixes minor alpha channel damage inconsistencies with cbgrashut1_es
+* Fixes floating pixels in alpha channel
+
+### cbgrashut1_n, cbgrashut1_sn
+
+* Fixes night light artifacts
+
+### cbgrashut1_dn, cbgrashut1_rsn
+
+* Optimizes texture size
+
+### cbgrashut1_ng, cbgrashut1_sng
+
+* Fixes night light artifacts
+* Fixes light inconsistencies with cbgrashut1_n, cbgrashut1_sn
+
+### cbgrashut1_en, cbgrashut1_rn, cbgrashut1_esn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbgrashut2, cbgrashut2_d, cbgrashut2_ds
+
+* Adds missing door
+* Fixes roof visuals in alpha channel
+
+### cbgrashut2_e, cbgrashut2_es
+
+* Fixes minor texture damage inconsistencies with cbgrashut2_d, cbgrashut2_ds
+* Adds missing door
+* Adds additional damages to alpha channel
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut2_r
+
+* Adds additional damages to alpha channel
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut2_s
+
+* Fixes roof visuals in alpha channel
+
+### cbgrashut2_rs
+
+* Adds missing door
+* Adds additional damages to alpha channel
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut2_en, cbgrashut2_rsn
+
+* Fixes incorrect night light
+
+### cbgrashut2_rn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbgrashut2_esn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbgrashut3, cbgrashut3_d
+
+* Adds missing pipe texture
+* Fixes under-saturated door texture
+* Fixes roof visuals in alpha channel
+
+### cbgrashut3_e
+
+* Fixes under-saturated door texture
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut3_r
+
+* Fixes minor alpha channel damage inconsistencies with cbgrashut3_e
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut3_s
+
+* Fixes over-saturated door texture
+* Fixes roof visuals in alpha channel
+
+### cbgrashut3_ds
+
+* Adds missing pipe texture
+* Fixes over-saturated door texture
+* Fixes roof visuals in alpha channel
+
+### cbgrashut3_es
+
+* Fixes texture damage inconsistencies with cbgrashut3_ds
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut3_rs
+
+* Fixes texture damage inconsistencies with cbgrashut3_es
+* Fixes minor alpha channel damage inconsistencies with cbgrashut3_es
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut3_en, cbgrashut3_rn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbgrashut3_esn, cbgrashut3_rsn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbgrashut4
+
+* Fixes door visuals inconsistencies with cbgrashut4_e
+* Fixes roof visuals in alpha channel
+
+### cbgrashut4_d
+
+* Fixes door visuals inconsistencies with cbgrashut4_e
+* Fixes grey damages by making them darker
+* Fixes roof visuals in alpha channel
+
+### cbgrashut4_e
+
+* Fixes major texture damage inconsistencies with cbgrashut4_d
+* Fixes roof visuals in alpha channel
+* Adds damages to alpha channel
+
+### cbgrashut4_r
+
+* Fixes major texture damage inconsistencies with cbgrashut4_e
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut4_s
+
+* Fixes snow visuals on door
+* Fixes roof visuals in alpha channel
+
+### cbgrashut4_ds
+
+* Fixes snow visuals on door
+* Fixes grey damages by making them darker
+* Fixes roof visuals in alpha channel
+
+### cbgrashut4_es
+
+* Fixes major texture damage inconsistencies with cbgrashut4_ds
+* Fixes roof visuals in alpha channel
+* Adds damages to alpha channel
+
+### cbgrashut4_rs
+
+* Fixes major texture damage inconsistencies with cbgrashut4_es
+* Fixes roof visuals in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgrashut4_en, cbgrashut4_rn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbgrashut4_esn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbh2oplnt_s, cbh2oplnt_ds
+
+* Creates 2x upscale to 512x512
+* Removes black bricks
+
+### cbh2oplnt_es, cbh2oplnt_sg, cbh2oplnt_dsg
+
+* Creates 2x upscale to 512x512
+
+### cbh2oplnt_rs
+
+* Creates 2x upscale to 512x512
+* Fixes missing damages in alpha channel
+
+### cbh2oplnt_n
+
+* Adds missing lights to second window
+
+### cbh2oplnt_en, cbh2oplnt_rn, cbh2oplnt_esn, cbh2oplnt_rsn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbh2oplnt_ng
+
+* Recreates night lights based on new cbh2oplnt_n
+
+### cbh2oplnt_sn, cbh2oplnt_sng
+
+* New
+
+!!! CBH2OPLNT_DG.w3d, CBH2OPLNT_SNG.w3d, CBH2OPLNT_DSNG.w3d do not show barricade on windows
+!!! Use new night textures on CBH2OPLNT_SN.w3d, CBH2OPLNT_DSN.w3d, CBH2OPLNT_SNG.w3d, CBH2OPLNT_DSNG.w3d
+
+-----------------------------------
+
+cbmogwell01_d
+
+Fixes water color different to cbmogwell01
+Add missing alpha channel
+
+-----------------------------------
+
+cbtower02_r
+
+Fixes minor texture damage inconsistencies with cbtower02_e
+
+-----------------------------------
+
+cmfastfoo_d, cmfastfoo_e, cmfastfoo_dg
+
+Removes highlights from damages
+
+cmfastfoo_r
+
+Adds proper damage progression based on cmfastfoo_e
+!!!cmfastfoo_r.w3d does not use this texture
+
+-----------------------------------
+
+cmocean_d
+
+Repaints window transparency damages
+
+cmocean_e
+
+Adds window transparency
+
+cmocean_g
+
+Fixes mispositioned barricade reflection in alpha channel
+
+cmocean_dg
+
+Adds texture
+!!!Use in cmocean_gd.w3d
+
+-----------------------------------
+
+cmoceanwin
+
+Fixes window transparency discrepancy with cmoceanwin_d
+
+cmoceanwin_d
+
+Repaints window transparency damages
+
+cmoceanwin_e
+
+Adds window transparency
+
+-----------------------------------
+
+cmwlakmo1, cmwlakmo1_d
+
+Removes superfluous black alpha channel
+
+cmwlakmo1a
+
+Removes superfluous black alpha channel
+Fixes tiling
+
+cmwlakmo1a_d
+
+Removes superfluous black alpha channel
+Fixes tiling
+Fixes damages inconsistencies with cmwlakmo1a
+
+-----------------------------------
+
+cmwlakmo3_e
+
+Fixes transparent bullet holes
+
+cmwlakmo3_r
+
+Fixes damages inconsistencies with cmwlakmo3_e
+
+-----------------------------------
+
+cmwlakmo5_d
+
+Remove black alpha channel
+
+cmwlakmo5_e
+
+Fixes damage inconsistencies with cmwlakmo5_d
+
+-----------------------------------
+
+cmcastle_d, cmcastle_e
+
+Fixes roof looking different than cmcastle
+
+cmcastle_dg
+
+Fixes roof looking different than cmcastle
+Fixes texture damage inconsistencies with cmcastle_d
+Fixes barricade visuals inconsistencies with cmcastle_g
+
+-----------------------------------
+
+cmwlchno1, cmwlchno1_d, cmwlchno1a
+
+Remove black alpha channel
+
+cmwlchno1a_d
+
+Remove black alpha channel
+Fixes damage inconsistencies with cmwlchno1a
+
+-----------------------------------
+
+cmamgasst_r
+
+Fixes damage inconsistencies with cmamgasst_e
+Darkens texture a bit
+
+-----------------------------------
+
+cbtanroof01, cbtanroof01_d, cbtanroof01_e
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+### cbngasst_roof, cbngasst_roof_d, cbngasst_roof_s
+
+* Darkens roof wall to match gradient of cbngasst_wall
+
+### cbngasst_roof_e
+
+* Darkens roof wall to match gradient of cbngasst_wall
+* Fixes floating pixels in alpha channel
+
+### cbngasst_roof_ds
+
+* Darkens roof wall to match gradient of cbngasst_wall
+* Fixes faint snow on damages
+
+### cbngasst_roof_es
+
+* Darkens roof wall to match gradient of cbngasst_wall
+* Fixes faint snow on damages
+* Fixes floating pixels in alpha channel
+
+-----------------------------------
+
+### cbngasst_tank_e
+
+* Fixes damage transition from cbngasst_tank_d to cbngasst_tank_r
+
+### cbngasst_tank_r, cbngasst_tank_rs
+
+* Fixes floating pixels in alpha channel
+
+### cbngasst_tank_n
+
+* Recreates gas tank light
+
+-----------------------------------
+
+### cbngasst_wall
+
+* Adds roof gradient to second wall
+
+### cbngasst_wall_d
+
+* Fixes texture damage visuals
+* Adds roof gradient to second wall
+
+### cbngasst_wall_g
+
+* Fixes texture damage inconsistencies with cbngasst_wall
+* Adds roof gradient to second wall
+
+### cbngasst_wall_e, cbngasst_wall_dg
+
+* Fixes texture damage visuals
+* Fixes texture damage inconsistencies with cbngasst_wall_d
+* Adds roof gradient to second wall
+
+### cbngasst_wall_r
+
+* Fixes texture damage visuals
+* Fixes texture damage inconsistencies with cbngasst_wall_d
+* Fixes floating pixels in alpha channel
+
+### cbngasst_wall_s
+
+* Increases brightness of roof gradient on second wall
+* Removes inappropriate hanging ice spikes from second wall
+
+### cbngasst_wall_ds
+
+* Fixes texture damage visuals
+* Adds roof gradient to second wall
+* Removes inappropriate hanging ice spikes from second wall
+
+### cbngasst_wall_es, cbngasst_wall_dsg
+
+* Fixes texture damage visuals
+* Fixes texture damage inconsistencies with cbngasst_wall_ds
+* Adds roof gradient to second wall
+* Removes inappropriate hanging ice spikes from second wall
+
+### cbngasst_wall_rs
+
+* Fixes texture damage visuals
+* Fixes texture damage inconsistencies with cbngasst_wall_ds
+* Fixes floating pixels in alpha channel
+
+### cbngasst_wall_sg
+
+* Fixes texture damage inconsistencies with cbngasst_wall_s
+* Adds roof gradient to second wall
+* Removes inappropriate hanging ice spikes from second wall
+
+### cbngasst_wall_n, cbngasst_wall_ds, cbngasst_wall_ng, cbngasst_wall_dng, cbngasst_wall_sn, cbngasst_wall_dsn, cbngasst_wall_sng, cbngasst_wall_dsng
+
+* Recreates house lights
+* Increases light brightness
+
+
+!!! CBNGASST_N.w3d is missing alpha on gas nozzle mesh
+!!! Door mat is z clipping on all models
+!!! CBNGASST_S.w3d, CBNGASST_SG.w3d, CBNGASST_EG.w3d use summer texture for wall(s)
+!!! CBNGASST_G.w3d shows night lights
+!!! CBNGASST_DSN.w3d is not using cbngasst_wall_dsn texture
+!!! CBNGASST_DSNG.w3d is not using cbngasst_wall_dsng texture
+
+-----------------------------------
+
+cbnhongk03
+
+Fixes blurry texture
+Fixes roof edges
+Improves colors of roof and wall
+
+cbnhongk03_d
+
+Fixes blurry texture
+Fixes roof edges
+Improves colors of roof and wall
+Adds more dirt
+
+cbnhongk03_e
+
+2x upscales texture
+Adds more damages
+
+!!! cbnhongk03_e is not used in cbnhongk03_e.w3d, cbnhongk03_r.w3d
+
+-----------------------------------
+
+### cbnhotel01, cbnhotel01_g
+
+* Improves hotel name billboard visuals
+* Fixes misshaped window reflections in alpha channel 
+
+### cbnhotel01_d, cbnhotel01_dg
+
+* Improves hotel name billboard visuals
+* Improves damage visuals on house edges
+* Fixes misshaped window reflections in alpha channel
+
+### cbnhotel01_e
+
+* Improves hotel name billboard visuals
+* Improves damage visuals on house edges
+
+### cbnhotel01_r
+
+* Improves damage visuals on house edges
+* Fixes minor floating pixels in alpha channel
+
+### cbnhotel01_s
+
+* Improves hotel name billboard visuals
+* Fixes misshaped window reflections in alpha channel
+* Fixes inaccurate or wrong snow on window reflections in alpha channel
+
+### cbnhotel01_ds
+
+* Improves hotel name billboard visuals
+* Fixes misshaped window reflections in alpha channel
+* Fixes inaccurate or wrong snow on window reflections in alpha channel
+* Adds missing damages to window reflections in alpha channel
+
+### cbnhotel01_es
+
+* Fixes snow drawing over burns and damages
+* Improves hotel name billboard visuals
+
+### cbnhotel01_rs
+
+* Fixes snow drawing over burns and damages
+* Adds more dirt to ground floor on snow
+* Fixes minor floating pixels in alpha channel
+
+### cbnhotel01_sg
+
+* Removes some snow over window barricades
+* Fixes hotel name billboard visuals
+* Fixes misshaped window reflections in alpha channel
+* Fixes inaccurate or wrong snow on window reflections in alpha channel
+
+### cbnhotel01_dsg
+
+* Removes some snow over window barricades
+* Fixes hotel name billboard visuals
+* Fixes misshaped window reflections in alpha channel
+* Fixes inaccurate or wrong snow on window reflections in alpha channel
+* Adds missing damages to window reflections in alpha channel
+
+### cbnhotel01_n, cbnhotel01_dn
+
+* Fixes misshaped window lights
+* Improves hotel name billboard visuals
+* Decreases brightness of house lights
+
+### cbnhotel01_ng, cbnhotel01_dng
+
+* Fixes window barricade artifacts
+* Fixes misshaped window lights
+* Improves hotel name billboard visuals
+* Decreases brightness of house lights
+
+### cbnhotel01_sn, cbnhotel01_dsn, cbnhotel01_sng, cbnhotel01_dsng
+
+* New
+
+### cbnhotel01_en, cbnhotel01_rn, cbnhotel01_esn
+
+* Fixes incorrect night light
+
+### cbnhotel01_rsn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+
+!!! CBNHOTEL01_S.w3d, CBNHOTEL01_DS.w3d, CBNHOTEL01_SG.w3d have no window reflections
+!!! CBNHOTEL01_D.w3d is shifting height position
+!!! Some meshes on house facade are not connected, shows tiny gap
+!!! Improve texture mapping and resolution for top windows (there is enough space in texture)
+!!! CBNHOTEL01_N.w3d et al hotel symbols show transparent mesh artifact
+!!! CBNHOTEL01_SN.w3d & Co can use new textures: cbnhotel01_sn, cbnhotel01_dsn, cbnhotel01_sng, cbnhotel01_dsng
+
+-----------------------------------
+
+### cbniteclub, cbniteclub_d, cbniteclub_g
+
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes minor misshaped window reflections
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+
+### cbniteclub_e
+
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+
+### cbniteclub_r
+
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Adds small additional damages
+
+### cbniteclub_dg
+
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+* Fixes window reflections over barricades
+
+### cbniteclub_s
+
+* Fixes snow inconsistencies with cbniteclub_sg
+* Fixes cyan snow
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes minor misshaped window reflections
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+* Fixes window reflections over snow
+
+### cbniteclub_ds
+
+* Fixes snow inconsistencies with cbniteclub_sg
+* Fixes cyan snow
+* Fixes snow drawing over damages
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes minor misshaped window reflections
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+* Fixes window reflections over snow
+
+### cbniteclub_es, cbniteclub_rs
+
+* Fixes snow inconsistencies with cbniteclub_ds
+* Fixes cyan snow
+* Fixes snow drawing over damages
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+
+### cbniteclub_sg
+
+* Fixes major snow inconsistencies with cbniteclub_s
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes minor misshaped window reflections
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+* Fixes window reflections over snow
+
+### cbniteclub_dsg
+
+* Fixes snow inconsistencies with cbniteclub_ds
+* Fixes cyan snow
+* Fixes snow drawing over damages
+* Fixes minor artifacts on house edges and billboards
+* Fixes background visuals of wine glasses
+* Increases usable surface area of blue glass facade
+* Fixes minor misshaped window reflections
+* Fixes wine glasses window reflection strength mismatch with blue glass facade
+* Fixes window reflections over snow
+
+### cbniteclub_n
+
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Removes superfluous alpha channel
+
+### cbniteclub_dn
+
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves damage visuals on lights
+
+### cbniteclub_en, cbniteclub_rn, cbniteclub_esn, cbniteclub_rsn
+
+* Fixes incorrect night light
+
+### cbniteclub_ng
+
+* Fixes light artifacts around window barricades
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+
+### cbniteclub_dng
+
+* Fixes light artifacts around window barricades
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves damage visuals on lights
+
+### cbniteclub_sn
+
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves snow visuals on lights
+
+### cbniteclub_dsn
+
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves damage visuals on lights
+* Improves snow visuals on lights
+
+### cbniteclub_sng
+
+* Fixes light artifacts around window barricades
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves snow visuals on lights
+
+### cbniteclub_dsng
+
+* Fixes light artifacts around window barricades
+* Fixes and polishes door, window and billboard lights
+* Increases usable surface area of blue glass facade
+* Adds lights for red symbols billboard
+* Adds lights for blue window facade
+* Improves damage visuals on lights
+* Improves snow visuals on lights
+
+
+TODO: Update all winter with _s merged
+
+
+!!! Remove glass window facade texture mapping from roof
+!!! Add new mesh with new texture mapping for blue glass billboard
+!!! Improve texture mapping for blue glass window facades
+!!! dringing glass mesh is missing window reflection
+!!! drinking glass animation has shifted texture mapping
+!!! dringing glass mesh has inconsistent positions across model variants
+!!! drinking glass mesh is too close to wall, can z clip on distance
+!!! CBNITECLUB_S.w3d is using summer drinking glass texture
+!!! there is a gap between the house sections
+
+-----------------------------------
+
+### cbnmegamal
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_d
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Polishes minor damages
+* Fixes wall reflection inconsistencies with cbnmegamal
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_e
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes floating and misaligned damages in alpha channel
+
+### cbnmegamal_r
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Improves house damage visuals
+* Fixes floating and misaligned damages in alpha channel
+* Adds additional damages in alpha channel
+
+### cbnmegamal_g
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes misshaped door and window reflections
+* Fixes window reflections over window barricades
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_dg
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Polishes minor damages
+* Fixes wall reflection inconsistencies with cbnmegamal
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+* Adds missing alpha channel
+
+### cbnmegamal_s
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes window reflections over snow
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_ds
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes snow drawing over damages
+* Fixes window reflections over snow
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_es
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes snow drawing over damages
+* Fixes floating and misaligned damages in alpha channel
+
+### cbnmegamal_rs
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes snow drawing over damages
+* Fixes floating and misaligned damages in alpha channel
+* Adds additional damages in alpha channel
+
+### cbnmegamal_sg
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes window reflections over window barricades
+* Fixes window reflections over snow
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_dsg
+
+* Fixes minor artifacts on walls, doors and windows
+* Recreates large mall windows
+* Fixes snow drawing over damages
+* Fixes window reflections over window barricades
+* Fixes window reflections over snow
+* Fixes misshaped door and window reflections
+* Decreases reflection strength of walls, doors and windows
+
+### cbnmegamal_n
+
+* Recreates and polishes majority of house lights
+* Removes superfluous black alpha channel
+
+### cbnmegamal_dn
+
+* Recreates and polishes majority of house lights
+* Recreates light damages
+
+### cbnmegamal_ng
+
+* Fixes light artifacts around window barricades
+* Recreates and polishes majority of house lights
+
+### cbnmegamal_dng
+
+* Fixes light artifacts around window barricades
+* Recreates and polishes majority of house lights
+* Recreates light damages
+
+### cbnmegamal_en, cbnmegamal_rn, cbnmegamal_esn, cbnmegamal_rsn
+
+* Fixes incorrect night light
+
+### cbnmegamal_sn
+
+* Fixes minor light artifacts on snow and vents
+* Recreates and polishes majority of house lights
+
+### cbnmegamal_dsn
+
+* Fixes minor light artifacts on snow and vents
+* Recreates and polishes majority of house lights
+* Recreates light damages
+
+### cbnmegamal_sng
+
+* Fixes light artifacts around window barricades
+* Fixes minor light artifacts on snow and vents
+* Recreates and polishes majority of house lights
+
+### cbnmegamal_dsng
+
+* Fixes light artifacts around window barricades
+* Fixes minor light artifacts on snow and vents
+* Recreates and polishes majority of house lights
+* Recreates light damages
+
+
+
+!!! Texture mapping on walls is not well aligned
+!!! Decrease size of building attachment maybe
+!!! White tiled wall can be remapped and show more tiles
+
+-----------------------------------
+
+cbnretal01, cbnretal01_d, cbnretal01_g, cbnretal01_dg
+
+Fixes staircase visuals
+Fixes window visuals and reflections
+
+cbnretal01_e
+
+Fixes staircase visuals
+Fixes window visuals
+Removes sand dirt from house
+
+cbnretal01_r
+
+Fixes staircase visuals
+Fixes damages in alpha channel
+
+cbnretal01_s
+
+Fixes staircase visuals
+Adds snow to stairs
+Adds some crispiness to snow
+Fixes window reflections over snow
+
+cbnretal01_ds, cbnretal01_dsg
+
+Fixes staircase visuals
+Adds snow to stairs
+Fixes minor snow discrepancies with cbnretal01_s
+Fixes snow drawing over burns
+Fixes window reflections over snow
+
+cbnretal01_es
+
+Fixes staircase visuals
+Adds snow to stairs
+Fixes snow drawing over burns
+
+cbnretal01_rs
+
+Fixes staircase visuals
+Fixes snow drawing over burns
+Fixes damages in alpha channel
+
+cbnretal01_sg
+
+Fixes staircase visuals
+Adds snow to stairs
+Fixes minor snow discrepancies with cbnretal01_s
+Fixes window reflections over snow
+
+-----------------------------------
+
+cbnretal02_s, cbnretal02_sg
+
+Fixes window reflections over snow
+
+cbnretal02_ds, cbnretal02_dsg
+
+Fixes snow drawing over burns
+Fixes window reflections over snow
+
+cbnretal02_es, cbnretal02_rs
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+!!! CBGASFACL_E.w3d uses R texture
+!!! some CBGASFACL_*.w3d models use now obsolete cbgasfacltnk_* textures
+!!! CBGASFACL_DN.w3d shows more lights than intended, has broken alpha. CBGASFACL_DNG.w3d appears correct
+
+
+### cbgasfacl, cbgasfacl_g, cbgasfacl_s, cbgasfacl_sg
+
+* Creates 2x upscale to 512x512
+* Removes black holes from walls
+* Fixes minor pink color cast
+
+### cbgasfacl_d, cbgasfacl_dg
+
+* Creates 2x upscale to 512x512
+* Removes black holes from walls
+* Fixes minor pink color cast
+* Removes reflections on various parts of structure
+
+### cbgasfacl_e, cbgasfacl_r
+
+* Creates 2x upscale to 512x512
+
+### cbgasfacl_ds, cbgasfacl_dsg
+
+* Creates 2x upscale to 512x512
+* Removes black holes from walls
+* Fixes minor pink color cast
+* Removes reflections on various parts of structure
+* Fixes major snow inconsistencies with cbgasfacl_s, cbgasfacl_sg
+
+### cbgasfacl_es, cbgasfacl_rs
+
+* Creates 2x upscale to 512x512
+* Fixes major snow inconsistencies with cbgasfacl_s, cbgasfacl_sg
+
+### cbgasfacl_en, cbgasfacl_rn
+
+* Fixes incorrect night light
+
+### cbgasfacl_esn, cbgasfacl_rsn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbgassttn_g
+
+* Fixes window reflections on window barricades
+* Removes holes from walls
+
+### cbgassttn_sg
+
+* Fixes minor snow inconsistencies with cbgassttn_s
+* Removes holes from walls
+
+### cbgassttn_dg, cbgassttn_dsg
+
+* Fixes positional shift of window barricades
+* Fixes window reflections on window barricades
+* Removes excess damages from walls
+
+### cbgassttn_e, cbgassttn_es
+
+* Fixes damage inconsistencies with cbgassttn_d, cbgassttn_ds
+
+### cbgassttn_r, cbgassttn_rs
+
+* Fixes damage inconsistencies with cbgassttn_e, cbgassttn_es
+
+### cbgassttn_dng
+
+* Fixes borders of window lights
+
+### cbgassttn_en, cbgassttn_rn
+
+* Fixes incorrect night light
+
+
+!!!CBGASSTTN_DNG.W3D does not use cbgassttn_dng
+
+-----------------------------------
+
+cbtowerw03_sg
+
+Fixes snow texture inconsistencies with cbtowerw03_s
+
+cbtowerw03_d, cbtowerw03_dg
+
+Removes wrong alpha channel
+
+cbtowerw03_ds
+
+Removes excess snow
+Removes wrong alpha channel
+
+cbtowerw03_dsg
+
+Removes excess snow
+
+cbtowerw03_e, cbtowerw03_es
+
+Improves damage visuals
+
+cbtowerw03_r, cbtowerw03_rs
+
+Fixes damage inconsistencies with cbtowerw03_e, cbtowerw03_es
+
+-----------------------------------
+
+cbtower2, cbtower2_s
+
+Repaints metal fence
+
+cbtower2_d, cbtower2_ds
+
+Repaints metal fence
+Adds missing alpha channel
+Removes dirt that is bad for tiling
+
+cbtower2_e
+
+Repaints metal fence
+Removes dirt that is bad for tiling
+Fixes texture damage inconsistencies with cbtower2_d
+
+cbtower2_r
+
+Repaints metal fence
+Removes dirt that is bad for tiling
+Fixes major texture damage inconsistencies with cbtower2_e
+Fixes black window
+
+cbtower2_g, cbtower2_sg
+
+Repaints metal fence
+Decreases brightness of window barricade
+
+cbtower2_dg, cbtower2_dsg
+
+Repaints metal fence
+Decreases brightness of window barricade
+Adds missing alpha channel
+Removes dirt that is bad for tiling
+
+cbtower2_es
+
+Repaints metal fence
+Removes dirt that is bad for tiling
+Fixes texture damage inconsistencies with cbtower2_ds
+Removes damages from alpha channel
+
+cbtower2_rs
+
+Repaints metal fence
+Removes dirt that is bad for tiling
+Fixes major texture damage inconsistencies with cbtower2_es
+Fixes black window
+
+-----------------------------------
+
+### cbgshop
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+* Fixes cut off shop sign symbol
+* Fixes window reflection coverage
+
+### cbgshop_d
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+* Fixes cut off shop sign symbol
+* Fixes window reflection strength
+* Fixes window reflection coverage
+
+### cbgshop_e
+
+* Fixes artifacts on burns
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+* Fixes cut off shop sign symbol
+* Fixes alpha channel damage inconsistency with cbgshop_r
+* Fixes floating pixels in alpha channel
+
+### cbgshop_r
+
+* Fixes artifacts on burns
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+* Fixes cut off shop sign symbol
+* Fixes texture damage inconsistencies with cbtower2_e
+* Fixes alpha channel damage inconsistencies with cbtower2_e
+* Fixes floating pixels in alpha channel
+
+### cbgshop_g
+
+* Fixes cut off shop sign symbol
+* Adds shadows to window barricades
+* Fixes reflections over window barricades
+* Fixes window reflection strength
+* Fixes window reflection coverage
+
+### cbgshop_dg
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_g
+* Fixes cut off shop sign symbol
+* Fixes window reflection coverage
+
+### cbgshop_s
+
+* Fixes shop sign looking different to cbgshop_sg
+* Fixes snow on window reflections
+* Fixes window reflection coverage
+
+### cbgshop_ds
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+* Fixes cut off shop sign symbol
+* Adds missing snow to window reflections
+* Fixes window reflection coverage
+
+### cbgshop_es
+
+* Fixes artifacts on burns
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+* Fixes cut off shop sign symbol
+* Fixes snow inconsistencies with cbgshop_ds
+* Fixes alpha channel damage inconsistency with cbgshop_r
+* Fixes floating pixels in alpha channel
+
+### cbgshop_rs
+
+* Fixes artifacts on burns
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+* Fixes cut off shop sign symbol
+* Fixes snow inconsistencies with cbgshop_ds
+* Fixes texture damage inconsistencies with cbtower2_es
+* Fixes alpha channel damage inconsistencies with cbtower2_es
+* Fixes floating pixels in alpha channel
+
+### cbgshop_sg
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+* Fixes cut off shop sign symbol
+* Adds shadows to window barricades
+* Adds missing snow to window reflections
+* Fixes window reflection coverage
+
+### cbgshop_dsg
+
+* Fixes window visuals inconsistencies at bottom floor with cbgshop_s
+* Fixes cut off shop sign symbol
+* Adds shadows to window barricades
+* Adds snow to window barricades
+* Adds missing snow to window reflections
+* Fixes window reflection coverage
+
+### cbgshop_n, cbgshop_ng
+
+* Fixes black levels to avoid bright night model
+* Recreates night lights to match fixed window dimensions
+
+### cbgshop_en, cbgshop_esn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbgshop_rn
+
+* Fixes incorrect night light
+
+### cbgshop_rsn
+
+* Optimizes texture size
+
+
+!!! CBGSHOP_E.w3d shop sign needs non reflective shader
+!!! CBGSHOP_DN.w3d has shifted height
+
+-----------------------------------
+
+cbtownhs02, cbtownhs02_d
+
+Repaints window reflections
+
+cbtownhs02_e
+
+Fixes artifacts in damages
+Fixes window damages in alpha channel
+
+cbtownhs02_r
+
+Fixes artifacts in damages
+Fixes alpha channel damage inconsistencies with cbtownhs02_e
+
+cbtownhs02_g, cbtownhs02_dg
+
+Repaints window barricades
+Fixes blurred window reflections in alpha channel
+
+cbtownhs02_s
+
+Repaints window reflections
+
+cbtownhs02_ds
+
+Readds some of the snow from cbtownhs02_s
+
+cbtownhs02_es
+
+Fixes snow inconsistencies with cbtownhs02_ds
+Fixes some damage inconsistencies with cbtownhs02_e
+Fixes window damages in alpha channel
+
+cbtownhs02_rs
+
+Fixes snow inconsistencies with cbtownhs02_ds
+Fixes damage inconsistencies with cbtownhs02_es
+Fixes alpha channel damage inconsistencies with cbtownhs02_es
+Fixes some damage inconsistencies with cbtownhs02_r
+
+cbtownhs02_sg
+
+Fixes minor roof snow inconsistencies with cbtownhs02_s
+Repaints window barricades
+Fixes blurred window reflections in alpha channel
+
+cbtownhs02_dsg
+
+Readds some of the snow from cbtownhs02_s
+Repaints window barricades
+Fixes blurred window reflections in alpha channel
+
+cbtownhs02_n
+
+Fixes window lights being much darker than cbtownhs02_d, cbtownhs02_ng
+Repaints texture
+
+cbtownhs02_dn, cbtownhs02_ng, cbtownhs02_dng, cbtownhs02_sn, cbtownhs02_sng, cbtownhs02_dsn, cbtownhs02_dsng
+
+Repaints texture
+
+-----------------------------------
+
+cbnriverh2_g, cbnriverh2_sg
+
+Removes holes in wall
+
+cbnriverh2_d
+
+Fixes alpha channel
+!!! CBNRIVERH2_D uses wrong texture
+
+cbnriverh2_dg
+
+Fixes texture damage inconsistencies with cbnriverh2_d
+
+cbnriverh2_ds
+
+Fixes texture snow inconsistencies with cbnriverh2_dsg
+
+cbnriverh2_dsg
+
+Removes holes in wall
+Fixes window barricade inconsistencies with cbnriverh2_sg
+
+cbnriverh2_es
+
+Fixes texture damage inconsistencies with cbnriverh2_ds
+
+cbnriverh2_r, cbnriverh2_rs
+
+Fixes major texture damage inconsistencies with cbnriverh2_e, cbnriverh2_es
+Adds more dirt and burns
+
+-----------------------------------
+
+cbnriverho_es, cbnriverho_rs
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+### cbgchrch01_e
+
+* Fixes damages in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgchrch01_r
+
+* Fixes major damage inconsistencies with cbgchrch01_e
+* Fixes floating pixels in alpha channel
+
+### cbgchrch01_g
+
+* Adds missing window reflections
+* Fixes strength of window reflections
+
+### cbgchrch01_dg
+
+* Fixes texture damage inconsistencies with cbgchrch01_d
+* Adds missing window reflections
+* Fixes strength of window reflections
+
+### cbgchrch01_s
+
+* Adds missing window reflections
+
+### cbgchrch01_ds
+
+* Fixes window reflections over snow
+
+### cbgchrch01_es
+
+* Fixes damages in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbgchrch01_rs
+
+* Fixes major damage inconsistencies with cbgchrch01_es
+* Fixes floating pixels in alpha channel
+
+### cbgchrch01_sg
+
+* Adds missing window reflections
+* Fixes strength of window reflections
+
+### cbgchrch01_dsg
+
+* Adds missing alpha channel
+
+### cbgchrch01_dng
+
+* Fixes night light discrepancies with cbgchrch01_ng, cbgchrch01_dn
+
+### cbgchrch01_en, cbgchrch01_esn
+
+* Fixes incorrect night lights
+
+### cbgchrch01_rn, cbgchrch01_rsn
+
+* Optimizes texture size
+
+
+!!! CBGCHRCH01_R is not using R texture
+!!! CBGCHRCH01_RS is not using RS texture
+
+-----------------------------------
+
+cbsovbld2_g
+
+Removes one extra window barricade
+Fixes window reflections over windows barricades
+
+cbsovbld2_e
+
+Rebuilds texture to look different to cbsovbld2_r
+
+cbsovbld2_r
+
+Fixes texture damage inconsistencies with cbsovbld2_e
+
+cbsovbld2_dg
+
+Fixes window reflections over windows barricades
+
+cbsovbld2_ds
+
+Fixes snow inconsistencies with cbsovbld2_s
+
+cbsovbld2_sg
+
+Fixes outlines at window reflections
+
+cbsovbld2_dsg
+
+Fixes snow and damage inconsistencies with cbsovbld2_ds
+Fixes outlines at window reflections
+Removes window reflections from damaged windows
+
+cbsovbld2_es
+
+Fixes snow inconsistencies with cbsovbld2_ds
+
+cbsovbld2_rs
+
+Fixes snow inconsistencies with cbsovbld2_es
+
+-----------------------------------
+
+cbtconvst1
+
+Adds missing window reflections in alpha channel
+Adds missing railing in alpha channel
+
+cbtconvst1_d, cbtconvst1_s, cbtconvst1_ds
+
+Adds missing railing in alpha channel
+
+cbtconvst1_e
+
+Fixes railing details in alpha channel
+Fixes damage details in alpha channel
+
+cbtconvst1_es
+
+Fixes snow inconsistencies with cbtconvst1_ds
+Fixes railing details in alpha channel
+Fixes damage details in alpha channel
+
+cbtconvst1_r
+
+Fixes railing details in alpha channel
+Fixes texture damage inconsistencies with cbtconvst1_e
+Fixes alpha channel damage inconsistencies with cbtconvst1_e
+
+cbtconvst1_rs
+
+Fixes snow inconsistencies with cbtconvst1_es
+Fixes railing details in alpha channel
+Fixes texture damage inconsistencies with cbtconvst1_es
+Fixes alpha channel damage inconsistencies with cbtconvst1_r
+
+cbtconvst1_g
+
+Improves barricade visuals
+Removes artifacts on brick wall
+Adds missing railing in alpha channel
+
+cbtconvst1_dg
+
+Fixes texture damage inconsistencies with cbtconvst1_d
+Fixes major window barricades inconsistencies with cbtconvst1_g
+Removes artifacts on brick wall
+Adds missing railing in alpha channel
+
+cbtconvst1_sg
+
+Improves barricade visuals
+Fixes major snow inconsistencies with cbtconvst1_s
+Removes artifacts on brick wall
+Adds missing railing in alpha channel
+Fixes window reflection inconsistencies with cbtconvst1_s
+
+cbtconvst1_dsg
+
+Fixes texture damage inconsistencies with cbtconvst1_ds
+Fixes major window barricades inconsistencies with cbtconvst1_sg
+Removes artifacts on brick wall
+Adds missing railing in alpha channel
+
+-----------------------------------
+
+cbtconvst2, cbtconvst2_d
+
+Fixes one window looking different to cbtconvst2_e, cbtconvst2_r
+Fixes too strong window reflections
+Fixes misplaced window reflections
+!!!CBTCONVST2_D requires different alpha blend mode for reflective windows
+
+cbtconvst2_s, cbtconvst2_ds
+
+Fixes too strong window reflections
+Fixes misplaced window reflections
+
+cbtconvst2_r
+
+Fixes alpha channel damage inconsistencies with cbtconvst2_e
+
+cbtconvst2_es
+
+Fixes snow drawing over burns
+Fixes alpha channel damage inconsistencies with cbtconvst2_e
+
+cbtconvst2_rs
+
+Fixes snow drawing over burns
+Fixes alpha channel damage inconsistencies with cbtconvst2_es
+
+cbtconvst2_g, cbtconvst2_dg
+
+Fixes one window looking different to cbtconvst2_e, cbtconvst2_r
+Fixes inconsistent shadows on window barricades
+Fixes minor texture artifacts
+Fixes too strong window reflections
+Fixes misplaced window reflections
+Fixes window reflections over window barricades
+
+cbtconvst2_sg
+
+Fixes mispositioned snow
+Fixes inconsistent shadows on window barricades
+Fixes too strong window reflections
+Fixes misplaced window reflections
+Fixes window reflections over window barricades
+
+cbtconvst2_dsg
+
+Fixes inconsistent shadows on window barricades
+Fixes too strong window reflections
+Fixes misplaced window reflections
+Fixes window reflections over window barricades
+
+-----------------------------------
+
+### cbgctage01
+
+* Fixes too strong window reflections
+
+### cbgctage01_d
+
+* Fixes minor artifacts on window reflections
+
+### cbgctage01_g
+
+* Fixes width of barricades on window reflections
+
+### cbgctage01_dg
+
+* Fixes width of barricades on window reflections
+* Adds missing damages to window reflections
+
+### cbgctage01_e
+
+* Removes wrong window barricades
+* Fixes damage inconsistencies with cbgctage01_d
+* Fixes floating pixels in alpha channel
+
+### cbgctage01_r
+
+* Fixes alpha channel damage inconsistencies with cbgctage01_e
+* Readds some details in windows and doors
+* Fixes floating pixels in alpha channel
+
+### cbgctage01_s
+
+* Fixes window reflections over snow
+
+### cbgctage01_ds
+
+* Fixes minor artifacts on window reflections
+* Fixes window reflections over snow
+
+### cbgctage01_sg
+
+* Fixes window reflections over snow
+* Fixes width of barricades on window reflections
+
+### cbgctage01_dsg
+
+* Fixes minor artifacts on window reflections
+* Fixes window reflections over snow
+* Fixes width of barricades on window reflections
+
+### cbgctage01_es
+
+* Fixes snow and damage inconsistencies with cbgctage01_ds
+* Readds some details in windows and doors
+* Fixes floating pixels in alpha channel
+
+### cbgctage01_rs
+
+* Fixes major snow and damage texture inconsistencies with cbgctage01_es
+* Fixes alpha channel damage inconsistencies with cbgctage01_es
+* Fixes floating pixels in alpha channel
+
+### cbgctage01_n
+
+* Increases brightness of faint night lights
+* Adds missing lights to windows
+
+### cbgctage01_dn, cbgctage01_ng, cbgctage01_dng
+
+* Fixes night lights looking very different than cbgctage01_n
+
+### cbgctage01_sn
+
+* Increases brightness of faint night lights
+* Adds missing lights to windows
+* Adds missing snow to windows
+
+### cbgctage01_dsn
+
+* Adds missing damages to night lights
+
+### cbgctage01_sng, cbgctage01_dsng
+
+* Fixes night lights looking very different than cbgctage01_sn
+
+### cbgctage01_en, cbgctage01_rn, cbgctage01_esn, cbgctage01_rsn
+
+* Fixes incorrect night lights
+
+-----------------------------------
+
+cbtownhs01, cbtownhs01_g
+
+Fixes misshaped window reflections
+
+cbtownhs01_d
+
+Fixes misshaped window reflections
+Adds damages to window reflections
+Fixes window barricade artifacts on window reflections
+
+cbtownhs01_dg
+
+Fixes misshaped window reflections
+Adds damages to window reflections
+
+cbtownhs01_e
+
+Fixes minor floating pixels in alpha channel damages
+
+cbtownhs01_r
+
+Fixes texture and alpha channel damage inconsistencies with cbtownhs01_e
+Fixes floating pieces in alpha channel
+
+cbtownhs01_s, cbtownhs01_sg
+
+Adds missing snow at the bottom of the house
+Fixes misshaped window reflections
+Fixes window reflections over snow
+
+cbtownhs01_ds
+
+Adds missing snow at the bottom of the house
+Fixes misshaped window reflections
+Adds damages to window reflections
+Fixes window reflections over snow
+
+cbtownhs01_es
+
+Fixes texture and alpha channel damage inconsistencies with cbtownhs01_e
+
+cbtownhs01_rs
+
+Fixes alpha channel damage inconsistencies with cbtownhs01_es, cbtownhs01_r
+Fixes floating pieces in alpha channel
+
+cbtownhs01_dsg
+
+Adds missing snow at the bottom of the house
+Fixes misshaped window reflections
+Adds damages to window reflections
+Fixes window reflections over snow
+Fixes window reflections over window barricades
+
+-----------------------------------
+
+cbntraist, cbntraist_s
+
+Fixes texture looking completely different to cbntraist_d, cbntraist_ds
+
+cbntraist_ds, cbntraist_es, cbntraist_rs
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+### cbgraybumpcement, cbgraybumpcement_d, cbgraybumpcement_e
+
+* Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbsandbw, cbsandbw_d
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbnretal03_e
+
+Fixes minor texture damage inconsistencies with cbnretal03_d
+
+-----------------------------------
+
+cbnsubst_enterance_d
+
+2x upscales texture based on cbnsubst_enterance
+
+cbnsubst_enterance_e
+
+Fixes major texture damage inconsistencies with cbnsubst_enterance_d
+
+cbnsubst_enterance_r
+
+Fixes major texture damage inconsistencies with cbnsubst_enterance_e
+
+cbnsubst_enterance_ds
+
+Improves damage visuals based on cbnsubst_enterance_d
+
+cbnsubst_enterance_es
+
+Improves damage visuals based on cbnsubst_enterance_e
+
+-----------------------------------
+
+cbnsubst_vent_d
+
+Scale up to match cbnsubst_vent resolution
+
+cbnsubst_vent_e, cbnsubst_vent_r
+
+Fixes major texture damage inconsistencies
+
+cbnsubst_vent_ds
+
+Fixes texture inconsistencies with cbnsubst_vent_s
+
+cbnsubst_vent_es
+
+Fixes major texture damage inconsistencies with cbnsubst_vent_ds
+
+cbnsubst_vent_rs
+
+Fixes major texture damage inconsistencies with cbnsubst_vent_es
+Removes superfluous alpha channel
+
+!!! cbnsubst_vent_ds.w3d uses wrong vent texture
+
+-----------------------------------
+
+cbnsubst_wall_d
+
+Removes obsolete alpha channel
+
+cbnsubst_wall_e
+
+Fixes texture damage inconsistencies with cbnsubst_wall_d
+Fixes missing damage transition to cbnsubst_wall_r
+
+cbnsubst_wall_r
+
+Fixes texture damage inconsistencies with cbnsubst_wall_e
+
+cbnsubst_wall_es
+
+Removes obsolete alpha channel
+Fixes missing damage transition to cbnsubst_wall_rs
+
+cbnsubst_wall_rs
+
+Paints proper hole
+
+-----------------------------------
+
+cbtower03_d, cbtower03_dg
+
+Fixes bullet holes drawing over burns
+
+cbtower03_e
+
+Fixes bullet holes drawing over burns
+Fixes texture damage inconsistencies with cbtower03_d
+
+
+cbtower03_s, cbtower03_sg
+
+Fixes cyan color tint near snow
+
+cbtower03_ds
+
+Fixes cyan color tint near snow
+Fixes bullet holes drawing over burns
+Fixes snow drawing over burns
+
+cbtower03_es
+
+Fixes cyan color tint near snow
+Fixes bullet holes drawing over burns
+Fixes snow drawing over burns
+Fixes texture damage inconsistencies with cbtower03_ds
+
+cbtower03_sg
+
+Fixes cyan color tint near snow
+Fixes minor texture inconsistencies with cbtower03_s
+
+cbtower03_dsg
+
+Fixes cyan color tint near snow
+Fixes bullet holes drawing over burns
+Fixes snow drawing over burns
+Fixes minor texture inconsistencies with cbtower03_ds
+
+-----------------------------------
+
+cbtower04_d, cbtower04_e, cbtower04_r, cbtower04_dg
+
+Fixes texture damage inconsistencies and progression
+
+-----------------------------------
+
+cbtower05
+
+Fixes texture visuals inconsistencies with cbtower05_g
+Fixes black level
+
+cbtower05_d
+
+Fixes texture damage inconsistencies with cbtower05_gd
+Fixes black level
+
+cbtower05_e
+
+Adjusts texture damage with cbtower05_d
+Fixes black level
+
+cbtower05_g
+
+Fixes black level
+
+cbtower05_gd
+
+Fixes texture damage inconsistencies with cbtower05_d
+Fixes black level
+
+-----------------------------------
+
+cbsovbldg
+
+Improves alpha channel resolution for window reflections
+
+cbsovbldg_d, cbsovbldg_g, cbsovbldg_dg
+
+Improves alpha channel resolution for window reflections
+Fixes window reflection strength inconsistencies with cbsovbldg
+
+cbsovbldg_dg
+
+Fixes window barricade inconsistencies with cbsovbldg_g
+Fixes window damage inconsistencies with cbsovbldg_d
+Improves alpha channel resolution for window reflections
+Removes reflections from window barricades in alpha channel
+Fixes window reflection strength inconsistencies with cbsovbldg
+
+cbsovbldg_e
+
+Fixes minor texture damage inconsistencies with cbsovbldg_d
+
+cbsovbldg_r
+
+Removes unpolished rubble texture from ground texture
+Fixes alpha channel damage inconsistencies with cbsovbldg_e
+
+cbsovbldg_s
+
+2x upscales texture
+
+cbsovbldg_ds
+
+2x upscales texture
+Fixes snow texture inconsistencies with cbsovbldg_s
+Fixes window reflection strength inconsistencies with cbsovbldg_s
+
+cbsovbldg_es
+
+2x upscales texture
+Fixes snow texture inconsistencies with cbsovbldg_s
+Fixes minor texture damage inconsistencies with cbsovbldg_d
+
+cbsovbldg_rs
+
+2x upscales texture
+Fixes snow texture inconsistencies with cbsovbldg_s
+Fixes snow drawing over burns
+Removes unpolished rubble texture from ground texture
+Fixes alpha channel damage inconsistencies with cbsovbldg_es
+
+cbsovbldg_sg
+
+2x upscales texture
+Fixes major snow texture inconsistencies with cbsovbldg_s
+Fixes window reflection strength inconsistencies with cbsovbldg_s
+
+cbsovbldg_dsg
+
+2x upscales texture
+Fixes snow texture inconsistencies with cbsovbldg_s
+Fixes window reflection strength inconsistencies with cbsovbldg_s
+
+-----------------------------------
+
+cbnhongk02roof_e
+
+Fixes overlapping burns
+
+-----------------------------------
+
+cbnoffice1_r, cbnoffice1_rs
+
+Fixes minor alpha channel damage inconsistencies with cbnoffice1_e, cbnoffice1_es
+
+cbnoffice1_g, cbnoffice1_dg
+
+Removes bullet holes
+
+cbnoffice1_s
+
+Fixes snow texture inconsistencies with cbnoffice1_ds
+Fixes too strong window reflections
+
+cbnoffice1_sg
+
+Removes bullet holes
+Fixes snow texture inconsistencies with cbnoffice1_s, cbnoffice1_dsg
+Fixes too weak window reflections
+
+cbnoffice1_dsg
+
+Removes bullet holes
+Fixes reflections over window barricades
+
+-----------------------------------
+
+### cbmogdis01_e
+
+* Removes alpha channel with hole in building
+
+### cbmogdis01_r
+
+* Adds additional damages to fix seams
+* Fixes alpha channel damages
+
+### cbmogdis01_g
+
+* Fixes window barricade drawing over balcony
+
+### cbmogdis01_dg
+
+* Fixes window barricade drawing over balcony
+* Fixes alpha channel based on cbmogdis01_d, cbmogdis01_g
+
+### cbmogdis01_ds
+
+* Fixes snow drawing over burns
+
+### cbmogdis01_es
+
+* Fixes snow drawing over burns
+* Removes alpha channel with hole in building
+
+### cbmogdis01_rs
+
+* Fixes snow drawing over burns
+* Fixes alpha channel damages
+* Adds additional damages to fix seams
+
+### cbmogdis01_sg
+
+* Fixes window barricade drawing over balcony
+* Fixes snow inconsistencies with cbmogdis01_s
+* Fixes window reflections over snow
+
+### cbmogdis01_dsg
+
+* Fixes window barricade drawing over balcony
+* Adds missing snow to texture
+* Adds missing alpha channel
+
+### cbmogdis01_n, cbmogdis01_dn, cbmogdis01_ng, cbmogdis01_dng, cbmogdis01_sn, cbmogdis01_dsn, cbmogdis01_sng, cbmogdis01_dsng
+
+* Recreates house lights
+
+### cbmogdis01_en, cbmogdis01_rn, cbmogdis01_esn, cbmogdis01_rsn
+
+* Fixes incorrect night light
+
+
+!!! CBMOGDIS01_R.w3d has floating objects
+!!! Center columns have different texture mapping on CBMOGDIS01_D.w3d, CBMOGDIS01_E.w3d, etc models
+
+-----------------------------------
+
+### cbmogdis02_e
+
+* Removes bad holes from alpha channel
+
+### cbmogdis02_r
+
+* Fixes major texture damage inconsistencies with cbmogdis02_e
+* Adds missing alpha channel
+
+### cbmogdis02_g
+
+* Fixes window barricades drawing over edges
+* Adds missing alpha channel
+
+### cbmogdis02_dg
+
+* Fixes window barricades drawing over edges
+* Fixes texture damage inconsistencies with cbmogdis02_d
+
+### cbmogdis02_s
+
+* Fixes black lines in snow
+* Fixes window reflection on alpha channel
+
+### cbmogdis02_s
+
+* Fixes major snow discrepancies with cbmogdis02_sg
+* Fixes black lines in snow
+
+### cbmogdis02_ds
+
+* Fixes black lines in snow
+
+### cbmogdis02_es
+
+* Fixes major texture damage inconsistencies with cbmogdis02_ds
+
+### cbmogdis02_rs
+
+* Fixes major texture damage inconsistencies with cbmogdis02_es
+* Adds missing alpha channel
+
+### cbmogdis02_sg
+
+* Fixes window barricades drawing over edges
+* Fixes black lines in snow
+* Adds missing alpha channel
+
+### cbmogdis02_dsg
+
+* Fixes major snow discrepancies with cbmogdis02_ds
+* Fixes black lines in snow
+
+### cbmogdis02_n, cbmogdis02_gn
+
+* Fixes light spills and artifacts
+* Recreates house lights
+
+### cbmogdis02_dn
+
+* Fixes light spills and artifacts
+* Increases light brightness
+* Recreates house lights
+
+### cbmogdis02_en, cbmogdis02_esn, cbmogdis02_rsn
+
+* Fixes incorrect night light
+
+### cbmogdis02_rn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbmogdis02_dng, cbmogdis02_sn
+
+* Fixes incorrect night light
+* Recreates house lights
+
+### cbmogdis02_dsn, cbmogdis02_sng, cbmogdis02_dsng
+
+* New
+
+
+!!! CBMOGDIS02.w3d, CBMOGDIS02_S.w3d, CBMOGDIS02_G.w3d, CBMOGDIS02_SG.w3d do not have reflective window & vents
+!!! CBMOGDIS02_DSG.w3d has no mesh deformations
+!!! CBMOGDIS02_DNG.w3d does not use cbmogdis02_dng texture
+!!! CBMOGDIS02_RS.w3d is using wrong rubble_sn texture
+!!! CBMOGDIS02_SN.w3d, CBMOGDIS02_SNG.w3d, CBMOGDIS02_DSN.w3d, CBMOGDIS02_DSNG.w3d are not using snow night textures
+
+-----------------------------------
+
+### cbmogdis03_d
+
+* Removes obsolete alpha channel
+
+### cbmogdis03_e
+
+* Fixes texture damage inconsistencies with cbmogdis03_d
+
+### cbmogdis03_r, cbmogdis03_rs
+
+* Reconstructs new darker texture based on cbmogdis03_e, cbmogdis03_es
+* Fixes floating pixels in alpha channel
+
+### cbmogdis03_g
+
+* Adds shadows to window barricades
+
+### cbmogdis03_dg
+
+* Adds shadows to window barricades
+* Fixes minor texture damage inconsistencies with cbmogdis03_d
+* Removes bullet holes from window barricades
+
+### cbmogdis03_ds
+
+* Adds more damages
+* Fixes texture damage and snow inconsistencies with cbmogdis03_dsg
+* Removes obsolete alpha channel
+
+### cbmogdis03_es
+
+* Removes obsolete alpha channel
+* Fixes texture damage inconsistencies with cbmogdis03_ds
+
+### cbmogdis03_dsg
+
+* Fixes texture damage and snow inconsistencies with cbmogdis03_ds
+
+### cbmogdis03_n, cbmogdis03_dn
+
+* Recreates house lights
+
+### cbmogdis03_ng
+
+* Recreates house lights
+* Fixes broken window lights
+
+cbmogdis03_dng, cbmogdis03_sn, cbmogdis03_dsn, cbmogdis03_sng, cbmogdis03_dsng
+
+* New
+
+### cbmogdis03_s_black2, cbmogdis03_sblack1
+
+* Fixes incorrect night light
+
+
+!!! Use new cbmogdis03_dng, cbmogdis03_sn, cbmogdis03_dsn, cbmogdis03_sng, cbmogdis03_dsng textures in models
+
+-----------------------------------
+
+### cbmogdis04_d
+
+* Removes some bad bullet holes
+
+### cbmogdis04 _e
+
+* Suppresses grey emboss details
+* Removes obsolete alpha channel
+
+### cbmogdis04_r
+
+* Suppresses grey emboss details
+* Increases brightness of texture
+* Adds missing alpha channel based on cbmogdis04 _e
+* Fixes floating pixels in alpha channel
+
+### cbmogdis04_g, cbmogdis04_dg
+
+* Adds shadows to window barricades
+
+### cbmogdis04_s
+
+* Fix snow shadow mismatches with cbmogdis04_ds
+
+### cbmogdis04_sg
+
+* Fix snow shadow mismatches with cbmogdis04_dsg
+
+### cbmogdis04_ds
+
+* Fixes snow drawing over broken windows
+
+### cbmogdis04_dsg
+
+* Fixes snow drawing over broken windows
+* Remove obsolete alpha channel
+
+### cbmogdis04_es
+
+* Fixes snow drawing over broken windows
+* Fixes minor snow inconsistencies with cbmogdis04_ds
+* Removes some snow to show more damage based on cbmogdis04_e
+
+### cbmogdis04_rs
+
+* Fixes snow drawing over broken windows
+* Removes some snow to show more damage based on cbmogdis04_r
+* Adds missing alpha channel based on cbmogdis04 _e
+* Fixes floating pixels in alpha channel
+
+### cbmogdis04_n, cbmogdis04_dn
+
+* Recreates house lights
+
+### cbmogdis04_ng
+
+* Recreates house lights
+* Fixes broken window lights
+
+### cbmogdis04_dng, cbmogdis04_sn, cbmogdis04_dsn, cbmogdis04_sng, cbmogdis04_dsng
+
+* New
+
+
+!!! CBMOGDIS04_E.w3d uses cbmogdis04 _e (with a space)
+!!! CBMOGDIS04_R.w3d has reflection material on roof
+!!! CBMOGDIS04 models use textures from unrelated models
+!!! Use new cbmogdis04_dng, cbmogdis04_sn, cbmogdis04_dsn, cbmogdis04_sng, cbmogdis04_dsng textures in models
+
+-----------------------------------
+
+### cbmogdis05_e, cbmogdis05_r
+
+* Adds missing alpha channel, based on cbmogdis02_e
+
+### cbmogdis05_g, cbmogdis05_dg
+
+* Fixes window barricades drawing over edges
+
+### cbmogdis05_s, cbmogdis05_sg
+
+* Fixes cyan snow
+* Fixes window snow
+* Fixes black lines in snow
+
+### cbmogdis05_ds
+
+* Fixes cyan snow
+* Fixes window snow
+* Fixes black lines in snow
+* Fixes some snow drawing over burns
+
+### cbmogdis05_es
+
+* Fixes cyan snow
+* Fixes window snow
+* Fixes black lines in snow
+* Fixes some snow drawing over burns
+* Fixes texture damage inconsistencies with cbmogdis05_ds
+* Adds missing alpha channel, based on cbmogdis02_e
+
+### cbmogdis05_rs
+
+* Fixes cyan snow
+* Fixes black lines in snow
+* Fixes some snow drawing over burns
+* Adds missing alpha channel, based on cbmogdis02_e
+
+### cbmogdis05_dsg
+
+* Fixes major texture damage inconsistencies with cbmogdis05_ds
+* Fixes some snow drawing over burns
+
+### cbmogdis05_n, cbmogdis05_dn, cbmogdis05_ng
+
+* Recreates house lights
+* Changes blue light to orange light on window
+
+### cbmogdis05_dng
+
+* Recreates house lights
+* Fixes major light inconsistencies with cbmogdis05_dn, cbmogdis05_ng
+
+### cbmogdis05_sn, cbmogdis05_dsn, cbmogdis05_sng, cbmogdis05_dsng
+
+* Recreates house lights
+
+### cbmogdis05_black
+
+* Fixes incorrect night light
+
+
+!!! CBMOGDIS05_E.w3d, cbmogdis05_R.w3d renders reflections instead of holes
+!!! CBMOGDIS05_DNG.w3d does not use cbmogdis05_dng texture
+!!! CBMOGDIS02_SN.w3d, CBMOGDIS02_SNG.w3d, CBMOGDIS02_DSN.w3d, CBMOGDIS02_DSNG.w3d are not using snow night textures
+
+-----------------------------------
+
+### cbmogdis06_d, cbmogdis06_g, cbmogdis06_dg
+
+* Removes superfluous black alpha channel
+
+### cbmogdis06_e, cbmogdis06_r
+
+* Fixes floating pixels in alpha channel
+
+### cbmogdis06_s, cbmogdis06_sg
+
+* Fixes blue shadows under snow
+
+### cbmogdis06_ds, cbmogdis06_dsg
+
+* Fixes blue shadows under snow
+* Fixes snow drawing over burns
+
+### cbmogdis06_es, cbmogdis06_rs
+
+* Fixes blue shadows under snow
+* Fixes snow drawing over burns
+* Fixes floating pixels in alpha channel
+
+### cbmogdis06_n, cbmogdis06_dn, cbmogdis06_ng, cbmogdis06_dgn
+
+* Recreates house lights
+
+### cbmogdis06_sn, cbmogdis06_dsn, cbmogdis06_sng, cbmogdis06_dsng
+
+* New
+
+### cbmogdis06_en, cbmogdis06_rn, cbmogdis06_ens, cbmogdis06_rsn, cbmogdis06_venten, cbmogdis06_ventesn
+
+* Fixes incorrect night light
+
+### cbmogdis06_vent2, cbmogdis06_vent2_d, cbmogdis06_vent2_e, cbmogdis06_vent2_r, cbmogdis06_vent2_s, cbmogdis06_vent2_ds, cbmogdis06_vent2_es, cbmogdis06_vent2_rs
+
+* New, assembled from cbmogdis06_vent(s) with smaller resolution at 128x128, superseeds cbmogdis06_vent(s)
+* Fixes green tinted water drainage
+* Fixes damages and snow
+
+
+!!! CBMOGDIS06_DG.w3d, CBMOGDIS06_NG.w3d, etc, have shifted texture mapping at the bottom which paints bad window barricades at edge of wall - all models need to map texture at ground floor like CBMOGDIS06_G.w3d
+!!! Use new cbmogdis06_sn, cbmogdis06_dsn, cbmogdis06_sng, cbmogdis06_dsng textures in models
+!!! CBMOGDIS06_ES.w3d is using cbmogdis06_vente texture
+!!! Use new cbmogdis06_vent128, cbmogdis06_vent128_d, cbmogdis06_vent128_e, cbmogdis06_vent128_r, cbmogdis06_vent128_s, cbmogdis06_vent128_ds, cbmogdis06_vent128_es, cbmogdis06_vent128_rs textures in models
+
+-----------------------------------
+
+### cbmogdis07, cbmogdis07_d, cbmogdis07_e, cbmogdis07_r
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+
+### cbmogdis07_g, cbmogdis07_dg
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+* Fixes door barricades drawing over edge
+
+### cbmogdis07_s, cbmogdis07_sg
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+* Fixes missing snow on small part of roof
+* Fixes blue shadows under snow
+
+### cbmogdis07_ds, cbmogdis07_dsg
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+* Fixes missing snow on small part of roof
+* Fixes blue shadows under snow
+* Fixes snow drawing over burns
+
+### cbmogdis07_es, cbmogdis07 _rs
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+* Fixes missing snow on small part of roof
+* Fixes blue shadows under snow
+* Fixes snow drawing over burns
+* Fixes floating pixels in alpha channel
+
+### cbmogdis07_n, cbmogdis07_dn, cbmogdis07_ng, cbmogdis07_dgn
+
+* Creates 2x upscale to 512x512 based on cbmogdis06
+* Recreates house lights
+
+### cbmogdis07_sn, cbmogdis07_dsn, cbmogdis07_sng, cbmogdis07_dsng
+
+* New
+
+### cbmogdis07_esn, cbmogdis07_rsn
+
+* Fixes incorrect night light
+
+
+!!! CBMOGDIS07_DG.w3d, CBMOGDIS07_NG.w3d, etc, have shifted texture mapping at the bottom which paints bad window barricades at edge of wall - all models need to map texture at ground floor like CBMOGDIS07_G.w3d
+!!! cbmogdis07_rs.w3d uses both cbmogdis07_rs.dds and cbmogdis07 _rs.dds - Remove one of them
+!!! Use new cbmogdis07_sn, cbmogdis07_dsn, cbmogdis07_sng, cbmogdis07_dsng textures in models
+
+-----------------------------------
+
+### cbmogdis08_d
+
+* Removes bright bullet holes
+
+### cbmogdis08_e
+
+* Removes bright bullet holes
+* Fixes texture damage inconsistencies with cbmogdis08_d
+* Fixes minor texture damage artifacts
+
+### cbmogdis08_r
+
+* Removes bright bullet holes
+* Fixes texture damage inconsistencies with cbmogdis08_e
+* Fixes minor texture damage artifacts
+* Fixes scattered edges in alpha channel
+
+### cbmogdis08_g
+
+* Fixes window barricades overdraw
+* Adds shadows to window barricades
+
+### cbmogdis08_dg
+
+* Removes bright bullet holes
+* Fixes texture damage inconsistencies with cbmogdis08_d
+* Fixes window barricades overdraw
+* Adds shadows to window barricades
+
+### cbmogdis08_s
+
+* Creates 2x upscale to 512x512
+* Removes superfluous white alpha channel
+
+### cbmogdis08_ds
+
+* Creates 2x upscale to 512x512
+* Fixes snow drawing over burns
+* Removes bright bullet holes
+* Removes superfluous white alpha channel
+
+### cbmogdis08_es
+
+* Creates 2x upscale to 512x512
+* Fixes snow drawing over burns
+* Removes bright bullet holes
+* Fixes minor texture damage artifacts
+* Removes superfluous white alpha channel
+
+### cbmogdis08_rs
+
+* Creates 2x upscale to 512x512
+* Removes bright bullet holes
+* Fixes texture damage inconsistencies with cbmogdis08_es
+* Fixes minor texture damage artifacts
+* Fixes scattered edges in alpha channel
+
+### cbmogdis08_sg
+
+* Creates 2x upscale to 512x512
+* Adds snow on window barricades
+
+### cbmogdis08_dsg
+
+* Creates 2x upscale to 512x512
+* Fixes snow drawing over burns
+* Removes bright bullet holes
+* Adds snow on window barricades
+
+### cbmogdis08_n, cbmogdis08_dn, cbmogdis08_ng, cbmogdis08_sng
+
+* Recreates house lights
+
+### cbmogdis08_dng, cbmogdis08_dsn, cbmogdis08_dsng
+
+* New
+
+### cbmogdis08_sn
+
+* Creates 2x upscale to 512x512
+* Recreates house lights
+
+### cbmogdis08_en, cbmogdis08_rn, cbmogdis08_esn, cbmogdis08_rsn
+
+* Fixes incorrect night light
+
+
+!!! CBMOGDIS08_RS.w3d, CBMOGDIS08_RSN.w3d use wrong rubble texture
+!!! Use new cbmogdis08_dng, cbmogdis08_dsn, cbmogdis08_dsng textures in models
+
+
+-----------------------------------
+
+### cbgerbl01_d, cbgerbl01_g
+
+* Fixes black outlines on wooden railings
+
+### cbgerbl01_e
+
+* Fixes black outlines on wooden railings
+* Decreases strength of damaged window reflections
+
+### cbgerbl01_dg
+
+* Fixes black outlines on wooden railings
+* Fixes minor window reflection strength discrepancies with cbgerbl01_d
+
+-----------------------------------
+
+### cbgerbl02
+
+* Adds missing window reflection
+* Fixes minor window reflection position errors
+
+### cbgerbl02_d, cbgerbl02_dg
+
+* Fixes bullet holes drawing over plants, cloth and inappropriate places
+* Fixes dark outlines on window reflections
+* Fixes window reflections over window damages
+
+### cbgerbl02_e
+
+* Fixes bullet holes drawing over plants, cloth and inappropriate places
+* Removes the wrong window barricades
+
+### cbgerbl02_r
+
+* New
+
+### cbgerbl02_g
+
+* Removes superfluous black stripes on house facade
+* Fixes minor window reflection position errors
+
+
+!!! Use cbgerbl02_r in CBGERBL02_R.w3d
+
+-----------------------------------
+
+### cbgerbl04_d
+
+* Fixes bullet hole strength inconsistencies with cbgerbl04_dg, cbgerbl04_e
+
+-----------------------------------
+
+### cbgerbl05_dg
+
+* Fixes minor window reflection discrepancies with cbgerbl05_d
+
+-----------------------------------
+
+### cbgerbl06_g
+
+* Adds missing awning to texture
+
+### cbgerbl06_dg
+
+* Fixes minor window reflection discrepancies with cbgerbl06_d
+
+-----------------------------------
+
+### cbgermus_dg
+
+* Fixes minor window reflection discrepancies with cbgermus_d
+
+-----------------------------------
+
+!!! cbgpub02_s.w3d is missing window reflections
+
+### cbgpub02
+
+* Fixes misshaped house windows
+* Fixes misplaced and blurry window reflections
+
+### cbgpub02_d, cbgpub02_g, cbgpub02_dg
+
+* Fixes misshaped house windows
+* Fixes too strong window reflections
+
+### cbgpub02_e, cbgpub02_r
+
+* Fixes misshaped house windows
+* Adds additional damages to alpha channel
+
+### cbgpub02_s
+
+* Fixes snow position mismatches with cbgpub02_ds, cbgpub02_sg
+* Fixes too dark snow patches
+* Fixes misshaped house windows
+* Fixes misplaced and blurry window reflections
+
+### cbgpub02_ds, cbgpub02_sg, cbgpub02_dsg
+
+* Fixes too dark snow patches
+* Fixes misshaped house windows
+* Fixes too strong window reflections
+
+### cbgpub02_es, cbgpub02_rs
+
+* Fixes snow inconsistencies with cbgpub02_ds
+* Fixes too dark snow patches
+* Fixes misshaped house windows
+* Adds additional damages to alpha channel
+
+### cbgpub02_n, cbgpub02_ng
+
+* Fixes light artifacts
+
+### cbgpub02_dn
+
+* Fixes light artifacts
+* Removes superfluous alpha channel
+
+### cbgpub02_dng
+
+* Fixes light mismatches with cbgpub02_dn
+* Fixes light artifacts
+
+### cbgpub02_en, cbgpub02_esn
+
+* Fixes incorrect night light
+
+### cbgpub02_rn, cbgpub02_rsn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbdriveins_d
+
+* Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+* Fixes dark texture border
+
+### cbdriveins_g
+
+* Fixes texture sharpness inconsistencies with cbdriveins, cbdriveins_dg
+
+### cbdriveins_dg
+
+* Fixes dark texture border
+* Removes superfluous black alpha channel
+
+### cbdriveins_e, cbdriveins_r
+
+* Fixes dark texture border
+
+!!! CBDRIVEINS.w3d is darker than the other model variants
+!!! CBDRIVEINS_G.w3d is missing lights on tower
+!!! CBDRIVEINS_DG.w3d has wrong model
+
+-----------------------------------
+
+Model name is cbtdome
+
+### cbdome_e
+
+* Fixes see-through burn texture
+* Fixes texture damage inconsistencies with cbdome_d
+
+### cbdome_r
+
+* Removes superfluous black alpha channel
+* Fixes texture damage inconsistencies with cbdome_e
+
+### cbdome_gd
+
+* Fixes major texture damage inconsistencies with cbdome_d
+
+### cbdome_gn
+
+* Fixes minor night light inconsistencies with cbdome_n
+* Fixes minor window barricade discrepancies with cbdome_g
+
+-----------------------------------
+
+### cbgwmill1
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+
+### cbgwmill1_d
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Fixes minor damage inconsistencies with cbgwmill1_dg
+* Adds alpha channel
+
+### cbgwmill1_e
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Fixes minor damage inconsistencies with cbgwmill1_dg
+* Fixes thin outlines on wind blades
+
+### cbgwmill1_r
+
+* Creates 2x upscale to 256x256
+* Fixes texture damage inconsistencies with cbgwmill1_e
+* Adds alpha channel
+
+### cbgwmill1_g, cbgwmill1_dg, cbgwmill1_sg
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Removes some obsolete window barricades
+* Adds alpha channel
+
+### cbgwmill1_s, cbgwmill_s
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Fixes snow inconsistencies with cbgwmill1_sg
+* Adds alpha channel
+
+### cbgwmill1_ds
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Fixes snow inconsistencies with cbgwmill1_s, cbgwmill1_dsg
+* Adds alpha channel
+
+### cbgwmill1_dsg
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Removes some obsolete window barricades
+* Fixes snow inconsistencies with cbgwmill1_sg
+* Adds alpha channel
+
+### cbgwmill1_es
+
+* Creates 2x upscale to 256x256
+* Improves wind blade visuals
+* Fixes texture damage inconsistencies with cbgwmill1_ds
+
+### cbgwmill1_rs
+
+* Creates 2x upscale to 256x256
+* Fixes texture damage inconsistencies with cbgwmill1_es
+* Adds alpha channel
+
+### cbgwmill1_n, cbgwmill1_dn, cbgwmill1_ng, cbgwmill1_dng, cbgwmill1_sn, cbgwmill1_dsn, cbgwmill1_sng, cbgwmill1_dsng
+
+* Creates 2x upscale to 256x256
+* Fixes major night light artifacts
+
+### cbgwmill1_en, cbgwmill1_esn
+
+* Fixes incorrect night light
+* Removes superfluous alpha channel
+
+### cbgwmill1_rn, cbgwmill1_rsn
+
+* Fixes incorrect night light
+
+!!! CBGWMILL1_E.w3d, CBGWMILL1_R.w3d, CBGWMILL1_ES.w3d, CBGWMILL1_RS.w3d has position shift
+!!! CBGWMILL1_S.w3d & Co should no longer use duplicate cbgwmill_s (note without a '1')
+!!! CBGWMILL1_SN.w3d is not using cbgwmill1_sn texture
+!!! CBGWMILL1 anim blades do not rotate full circle
+!!! CBGWMILL1_ES.w3d is missing alpha on house damages
+!!! CBGWMILL1_R.w3d, CBGWMILL1_RS.w3d is missing alpha on wind blades, house damages
+!!! Models use base texture(s) for wind blades. Can optimize to use one texture
+
+-----------------------------------
+
+### cbhigh01_r
+
+* Fixes texture and alpha channel damage inconsistencies with cbhigh01_e
+* Fixes floating pixels and lines in alpha channel
+
+### cbhigh01_g
+
+* Fixes minor brightness discrepancy with cbhigh01
+* Fixes window reflection errors
+
+### cbhigh01_dn
+
+* Recreates light damages
+* Fixes light artifacts
+
+### cbhigh01_ng
+
+* Fixes light artifacts behind window barricades
+* Removes black alpha channel
+
+### cbhigh01_dng
+
+* Recreates light damages
+* Fixes light artifacts
+* Fixes light artifacts behind window barricades
+* Removes black alpha channel
+
+
+!!! CBHIGH01 models have bad texture mapping for windows on back side of building
+!!! CBHIGH01_D.w3d & CBHIGH01_DG.w3d, CBHIGH01_DN.w3d & CBHIGH01_DNG.w3d have texture mapping mismatches
+
+-----------------------------------
+
+### cbhigh02_g
+
+* Fixes one barricade drawing over facade
+* Fixes artifacts around barricade paintings
+* Fixes window reflection positions in alpha channel
+
+### cbhigh02_dg
+
+* Fixes one barricade drawing over facade
+* Fixes artifacts around barricade paintings
+* Adds missing shadows to window barricades
+* Optimizes window reflections in alpha channel based on new cbhigh02_g
+
+### cbhigh02_n
+
+* Fixes door and window lights
+* Removes superfluous alpha channel
+
+### cbhigh02_dn
+
+* Fixes door and window lights
+* Recreates light damages
+* Removes superfluous alpha channel
+
+### cbhigh02_ng
+
+* Fixes door and window lights
+* Fixes wrong positioned window barricades
+* Removes superfluous alpha channel
+
+### cbhigh02_dng
+
+* Fixes door and window lights
+* Fixes wrong positioned window barricades
+* Recreates light damages
+* Removes superfluous alpha channel
+
+
+!!! Window facade textures are not well mapped
+
+-----------------------------------
+
+### cbindwhs01
+
+* Fixes misaligned window reflections
+* Adds missing window reflections
+
+### cbindwhs01_d
+
+* Fixes misaligned window reflections
+* Adds missing window reflections
+* Adds damages to window reflections
+
+### cbindwhs01_rs
+
+* Fixes minor damage inconsistencies with cbindwhs01_e
+
+### cbindwhs01_g
+
+* Adds shadows to window barricades
+* Fixes misaligned window reflections
+* Fixes too strong window reflections
+* Adds missing window reflections
+
+### cbindwhs01_dg
+
+* Adds shadows to window barricades
+* Fixes misaligned window reflections
+* Fixes too strong window reflections
+* Adds damages to window reflections
+* Adds missing window reflections
+
+### cbindwhs01_s, cbindwhs01_sg
+
+* Creates 2x upscale to 512x512
+* Fixes misaligned window reflections
+* Fixes too strong window reflections
+* Adds missing window reflections
+
+### cbindwhs01_ds, cbindwhs01_dsg
+
+* Creates 2x upscale to 512x512
+* Fixes misaligned window reflections
+* Fixes too strong window reflections
+* Adds missing window reflections
+* Adds damages to window reflections
+
+### cbindwhs01_es
+
+* Creates 2x upscale to 512x512
+
+### cbindwhs01_rs
+
+* Creates 2x upscale to 512x512
+* Fixes minor damage inconsistencies with cbindwhs01_es
+
+### cbindwhs01_n, cbindwhs01_dn, cbindwhs01_ng, cbindwhs01_sn, cbindwhs01_sng
+
+* Creates 2x upscale to 512x512
+* Recreates house lights
+
+### cbindwhs01_dng, cbindwhs01_dsn, cbindwhs01_dsng
+
+* New
+
+### cbindwhs01_en, cbindwhs01_rn, cbindwhs01_esn, cbindwhs01_rsn
+
+* Fixes incorrect night light
+
+
+!!! CBINDWHS01_DN.w3d, CBINDWHS01_DSN.w3d draw no object
+!!! Use _dn, _dng, _dsn, _dsng textures in models
+
+-----------------------------------
+
+### cbindwhs02
+
+* Sharpens blurry parts of texture
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+
+### cbindwhs02_d
+
+* Sharpens blurry parts of texture
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Adds damages to window reflections
+
+### cbindwhs02_e, cbindwhs02_r
+
+* Sharpens blurry parts of texture
+* Removes company logo
+* Fixes misshaped windows
+
+### cbindwhs02_g
+
+* Sharpens blurry parts of texture
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Adds shadows to window barricades
+
+### cbindwhs02_dg
+
+* Sharpens blurry parts of texture
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Adds damages to window reflections
+* Adds shadows to window barricades
+
+### cbindwhs02_s
+
+* Creates 2x upscale to 512x512
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Removes barricades from window reflections
+
+### cbindwhs02_ds
+
+* Creates 2x upscale to 512x512
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Removes barricades from window reflections
+* Adds damages to window reflections
+
+### cbindwhs02_es, cbindwhs02_rs
+
+* Creates 2x upscale to 512x512
+* Removes company logo
+* Fixes misshaped windows
+
+### cbindwhs02_sg
+
+* Creates 2x upscale to 512x512
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Adds shadows to window barricades
+
+### cbindwhs02_dsg
+
+* Creates 2x upscale to 512x512
+* Removes company logo
+* Fixes misshaped windows
+* Fixes misshaped window reflections
+* Adds damages to window reflections
+* Adds shadows to window barricades
+
+### cbindwhs02_n, cbindwhs02_dn
+
+* Recreates house lights
+
+### cbindwhs02_en, cbindwhs02_rn, cbindwhs02_esn, cbindwhs02_rsn
+
+* Fixes incorrect night light
+
+### cbindwhs02_ng, cbindwhs02_dng
+
+* Recreates house lights
+* Fixes blurry window barricade shadows
+
+### cbindwhs02_sn, cbindwhs02_sng
+
+* Creates 2x upscale to 512x512
+* Recreates house lights
+
+### cbindwhs02_dsn, cbindwhs02_dsng
+
+* Creates 2x upscale to 512x512
+* Fixes lights looking different to cbindwhs02_sn, cbindwhs02_sng
+
+
+!!! CBINDWHS02_DNG.w3d uses snow textures
+!!! CBINDWHS02_DSN.w3d is not using cbindwhs02_dsn texture
+!!! CBINDWHS02_DSNG.w3d is not using cbindwhs02_dsng texture
+!!! CBINDWHS02_DSNG.w3d has small position shift
+
+-----------------------------------
+
+### cbmectdrl1_g
+
+* Adds missing alpha channel
+
+### cbmectdrl1_r
+
+* Removes dome reflections from alpha channel
+
+### cbmectdrl1_s, cbmectdrl1_ds, cbmectdrl1_sg, cbmectdrl1_dsg
+
+* Creates 2x upscale to 512x512
+* Removes dome reflections under snow
+
+### cbmectdrl1_es
+
+* Creates 2x upscale to 512x512
+* Adds missing damages to alpha channel
+
+### cbmectdrl1_rs
+
+* Creates 2x upscale to 512x512
+* Removes dome reflections from alpha channel
+
+### cbmectdrl1_en, cbmectdrl1_rn
+
+* Optimizes texture size
+
+### cbmectdrl1_dng
+
+* Fixes minor inconsistencies with cbmectdrl1_dn, cbmectdrl1_ng
+
+### cbmectdrl1_dsn
+
+* Fixes minor inconsistencies with cbmectdrl1_sn
+
+### cbmectdrl1_dsng
+
+* Fixes minor inconsistencies with cbmectdrl1_dsn, cbmectdrl1_sng
+
+### cbmectdrl1_esn, cbmectdrl1_rsn
+
+* Optimizes texture size
+* Removes superfluous alpha channel
+
+
+!!! Night and snow models have wrong texture mapping on some of the inner house walls
+
+-----------------------------------
+
+### cbmectdrl2_d
+
+* Removes reflections on broken windows
+
+### cbmectdrl2_r
+
+* Fixes minor alpha channel damage inconsistencies
+
+### cbmectdrl2_s, cbmectdrl2_ds
+
+* Creates 2x upscale to 512x512
+
+### cbmectdrl2_es
+
+* Creates 2x upscale to 512x512
+* Fixes texture damage inconsistencies with cbmectdrl2_ds
+
+### cbmectdrl2_rs
+
+* Creates 2x upscale to 512x512
+* Fixes texture damage inconsistencies with cbmectdrl2_ds
+
+### cbmectdrl2_sg
+
+* Creates 2x upscale to 512x512
+* Fixes snow mismatches with cbmectdrl2_s
+
+### cbmectdrl2_dsg
+
+* Creates 2x upscale to 512x512
+* Fixes texture damage inconsistencies with cbmectdrl2_ds
+
+### cbmectdrl2_dn, cbmectdrl2_dng, cbmectdrl2_dsng
+
+* Increases brightness of lights
+
+### cbmectdrl2_en, cbmectdrl2_rn
+
+* Optimizes texture size
+
+### cbmectdrl2_dsn
+
+* Fixes minor artifacts on lights
+* Increases brightness of lights
+
+### cbmectdrl2_esn, cbmectdrl2_rsn
+
+* Optimizes texture size
+* Removes superfluous alpha channel
+
+
+!!! CBMECTDRL2_DSN.w3d is not using cbmectdrl2_dsn texture
+
+-----------------------------------
+
+!!!There is also cathedral, a copy of cbcthdrl, but appears to be unused.
+
+### cbcthdrl, cbcthdrl_d, cbcthdrl_g, cbcthdrl_dg
+
+* Creates 2x upscale to 512x512
+* Fixes artifacts on center roof segment
+
+### cbcthdrl_e
+
+* Creates 2x upscale to 512x512
+* Adds wooden planks to inside of damaged roof
+* Adds additional dirt to bright stairs
+* Removes superfluous alpha channel
+
+### cbcthdrl_r
+
+* Creates 2x upscale to 512x512
+* Adds additional dirt to bright stairs
+
+### cbcthdrl_s, cbcthdrl_ds, cbcthdrl_es, cbcthdrl_rs, cbcthdrl_g, cbcthdrl_dg
+
+* Creates 2x upscale to 512x512
+* Recreates texture based on respective base texture
+
+### cbcthdrl_n, cbcthdrl_dn, cbcthdrl_ng, cbcthdrl_dng
+
+* Creates 2x upscale to 512x512
+* Recreates night lights
+
+### cbcthdrl_en, cbcthdrl_rn
+
+* Fixes incorrect night light
+
+### cbcthdrl_esn, cbcthdrl_rsn
+
+* Optimizes texture size
+
+-----------------------------------
+
+cboilrfny_r
+
+Fixes minor alpha channel damage inconsistencies with cboilrfny_e
+
+-----------------------------------
+
+cboldmslm
+
+Removes superfluous black alpha channel
+
+cboldmslm_g
+
+Removes black bricks from walls
+
+cboldmslm_dg
+
+Fixes shadows of barricade texture
+Adds missing _d damages
+
+cboldmslm_s, cboldmslm_ds, cboldmslm_es, cboldmslm_dsg
+
+2x upscales texture
+
+cboldmslm_sg
+
+2x upscales texture
+Fixes snow position mismatch with cboldmslm_s
+
+cboldmslm_rs
+
+2x upscales texture
+Fixes texture damage inconsistencies with cboldmslm_es
+
+-----------------------------------
+
+cbquonset1_s, cbquonset1_sg
+
+Fixes cyan snow
+
+cbquonset1_ds
+
+Fixes cyan snow
+Fixes snow transparency inconsistency with cbquonset1_s, cbquonset1_dsg
+Fixes snow drawing over burns and damages
+
+cbquonset1_es, cbquonset1_dsg
+
+Fixes cyan snow
+Fixes snow drawing over burns and damages
+
+cbquonset1_rs
+
+Fixes cyan snow
+Fixes snow drawing over burns and damages
+Fixes minor snow inconsistencies with cbquonset1_es
+
+-----------------------------------
+
+cbtampico_d
+
+2x upscales texture based on cbtampico, cbtampico_d
+
+-----------------------------------
+
+cbthangar1_ds, cbthangar1_es, cbthangar1_rs
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+cbthotel01_r
+
+Fixes major texture and alpha channel damage inconsistencies with cbthotel01_e
+
+cbthotel01_rs
+
+Fixes major texture and alpha channel damage inconsistencies with cbthotel01_es
+
+cbthotel01_sg
+
+Fixes snow on windows drawing over barricades
+
+cbthotel01_dsg
+
+Fixes snow on windows drawing over barricades
+Fixes minor barricade visuals discrepancies with cbthotel01_sg
+Fixes major snow discrepancies with cbthotel01_ds
+
+-----------------------------------
+
+cbthotel02_r
+
+Fixes texture and alpha channel damage inconsistencies with cbthotel02_e
+
+cbthotel02_rs
+
+Fixes texture and alpha channel damage inconsistencies with cbthotel02_es
+
+-----------------------------------
+
+cbthouse01_g
+
+Removes black dots on wall
+Fixes window barricade position mismatch with cbthouse01_dg
+
+cbthouse01_sg
+
+Removes black dots on wall
+Fixes snow inconsistencies on roof with cbthouse01_s
+Fixes window barricade position mismatch with cbthouse01_dsg
+
+cbthouse01_dsg
+
+Fixes snow inconsistencies on roof with cbthouse01_ds
+!!!cbthouse01_dsg.w3d, cbthouse01_d.w3d has darker model
+!!!cbthouse01_e.w3d has positional mismatch
+
+-----------------------------------
+
+cbthouse03_door_ds
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+cbthouse03_vent3w_s, cbthouse03_ventw_s
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+!!!Note: cbthouse03 _s, cbthouse03_sg are duplicates and unused
+
+cbthouse03_e
+
+Fixes major damage inconsistencies with cbthouse03_d
+
+cbthouse03_es
+
+Fixes major damage and snow inconsistencies with cbthouse03_ds
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbthouse04_g, cbthouse04_dg
+
+Removes barricades on brick walls
+
+cbthouse04_s
+
+Removes blue dots in snow
+Adds more shades to snow
+Fixes window reflection over snow
+
+cbthouse04_ds, cbthouse04_es
+
+Removes blue dots in snow
+Adds more shades to snow
+Fixes snow drawing over burns
+Fixes window reflection over snow
+
+cbthouse04_sg
+
+Removes barricades on brick walls
+Removes blue dots in snow
+Adds more shades to snow
+Fixes window reflection over snow
+
+cbthouse04_dsg
+
+Removes barricades on brick walls
+Removes blue dots in snow
+Adds more shades to snow
+Fixes snow drawing over burns
+Fixes minor snow inconsistencies with cbthouse04_ds
+Fixes window reflection over snow
+
+-----------------------------------
+
+cbthouse05_r
+
+Adds missing alpha channel based on cbthouse05_rs
+
+cbthouse05_s
+
+Adds more snow to doors
+Removes obsolete alpha channel
+
+cbthouse05_ds
+
+Fixes snow discrepancies with cbthouse05_s
+Fixes snow drawing over burns
+Removes obsolete alpha channel
+
+cbthouse05_es
+
+Fixes snow discrepancies with cbthouse05_ds
+Fixes snow drawing over burns
+Removes obsolete alpha channel
+
+cbthouse05_rs
+
+Optimizes damages in alpha channel
+
+cbthouse05_sg, cbthouse05_dsg
+
+Fixes snow discrepancies with cbthouse05_s
+Reduces amount of snow on barricades
+Removes obsolete alpha channel
+
+-----------------------------------
+
+cbthouse06, cbthouse06_d, cbthouse06_e, cbthouse06_r, cbthouse06_g, cbthouse06_dg
+
+Fixes black borders around open doors
+
+cbthouse06_r
+
+Fixes texture damage and color inconsistencies with cbthouse06_e
+Adds more damages to texture
+Fixes black borders around open doors
+
+cbthouse06_s, cbthouse06_sg
+
+Fixes black borders around open doors
+
+cbthouse06_ds, cbthouse06_es
+
+Fixes snow drawing over burns
+Fixes black borders around open doors
+
+cbthouse06_dsg
+
+Fixes snow mismatch with cbthouse06_sg
+Fixes snow drawing over burns
+Fixes black borders around open doors
+
+cbthouse06_rs
+
+Fixes texture damage and color inconsistencies with cbthouse06_es
+Fixes snow drawing over burns
+Adds more damages to texture
+Fixes black borders around open doors
+
+-----------------------------------
+
+cbthouse08, cbthouse08_s
+
+Removes superfluous black alpha channel
+
+cbthouse08_e
+
+Fixes major texture damage inconsistencies with cbthouse08_d
+
+cbthouse08_ds
+
+Fixes snow drawing over burns
+Removes superfluous black alpha channel
+
+cbthouse08_es
+
+Fixes major texture damage inconsistencies with cbthouse08_ds
+Fixes snow drawing over burns
+Removes superfluous black alpha channel
+
+cbthouse08_sg
+
+Adds minor snow inconsistencies with cbthouse08_s
+Removes superfluous black alpha channel
+
+cbthouse08_dsg
+
+Fixes snow drawing over burns
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbthouse09_dg
+
+Fixes texture damage inconsistencies with cbthouse09_d
+
+cbthouse09_ds
+
+Fixes snow drawing over burns
+Fixes snow inconsistencies with cbthouse09_es
+
+cbthouse09_es
+
+Fixes snow drawing over burns
+Fixes snow inconsistencies with cbthouse09_ds
+
+cbthouse09_rs
+
+Fixes snow drawing over burns
+
+cbthouse09_sg
+
+Fixes snow inconsistencies with cbthouse09_s
+
+cbthouse09_dsg
+
+Fixes snow drawing over burns
+Fixes snow inconsistencies with cbthouse09_es
+Fixes texture damage inconsistencies with cbthouse09_ds
+
+
+!!! cbthouse09_sg.w3d roof texture has UV mismatch with cbthouse09_s.w3d
+
+-----------------------------------
+
+cbthouse10_s, cbthouse10_sg
+
+Removes superfluous black alpha channel
+
+cbthouse10_ds, cbthouse10_es, cbthouse10_dsg
+
+Fixes snow drawing over burns
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbthouse11, cbthouse11_d, cbthouse11_g, cbthouse11_dg
+
+Fixes black borders around open doors
+
+cbthouse11_e
+
+Fixes texture damage inconsistencies with cbthouse06_d
+Fixes green tinted damages
+Fixes black borders around open doors
+
+cbthouse11_s, cbthouse11_sg
+
+Fixes black borders around open doors
+
+cbthouse11_ds
+
+Fixes snow drawing over dirt
+Fixes black borders around open doors
+
+cbthouse11_dsg
+
+Fixes snow drawing over dirt
+Fixes minor snow inconsistencies with cbthouse11_ds
+Fixes black borders around open doors
+
+cbthouse11_es
+
+-----------------------------------
+
+cbthouse13_d, cbthouse13_e, cbthouse13_r
+
+Fixes detail and brightness inconsistencies with cbthouse13
+
+cbthouse13_ds, cbthouse13_es, cbthouse13_rs
+
+Fixes detail and brightness inconsistencies with cbthouse13_s
+Fixes snow drawing over burns
+
+-----------------------------------
+
+cbthouse15_d
+
+Fixes minor texture damage inconsistencies with cbthouse15_dg
+
+cbthouse15_e
+
+Fixes texture damage inconsistencies with cbthouse15_d
+
+cbthouse15_s
+
+Removes shadows from snow based on cbthouse15_gs
+
+cbthouse15_ds
+
+Fixes texture damage inconsistencies with cbthouse15_dsg
+Fixes snow drawing over burns
+
+cbthouse15_dsg
+
+Fixes snow drawing over burns
+Fixes snow inconsistencies with cbthouse15_gs, cbthouse15_ds
+
+cbthouse15_es
+
+Fixes texture damage inconsistencies with cbthouse15_ds
+
+-----------------------------------
+
+cbthouse16_d
+
+Fixes texture damage inconsistencies with cbthouse16_dg
+
+cbthouse16_e
+
+Fixes major texture damage inconsistencies with cbthouse16_d, cbthouse16_dg
+Fixes burn texture visuals
+
+cbthouse16_ds
+
+Fixes snow drawing over burns
+Fixes texture damage inconsistencies with cbthouse16_dsg
+
+cbthouse16_dsg
+
+Fixes snow drawing over burns
+
+cbthouse16_es
+
+Fixes snow drawing over burns
+Fixes burn texture visuals
+Fixes texture damage inconsistencies with cbthouse16_ds
+
+-----------------------------------
+
+cbthouse17_e
+
+Fixes burn texture visuals
+Fixes major texture damage inconsistencies with cbthouse17_d
+
+cbthouse17_dg
+
+Fixes major texture damage inconsistencies with cbthouse17_d
+Removes superfluous black alpha channel
+
+cbthouse17_eg
+
+Fixes major texture damage inconsistencies with cbthouse17_dg, cbthouse17_e
+Removes superfluous black alpha channel
+
+cbthouse17_ds
+
+Fixes snow drawing over burns
+
+cbthouse17_gs
+
+Adds new texture
+
+cbthouse17_dgs
+
+Fixes major texture damage inconsistencies with cbthouse17_ds
+!!!cbthouse17_dsg.w3d model is very dark
+
+cbthouse17_es
+
+Fixes snow drawing over burns
+Fixes burn texture visuals
+Fixes major texture damage inconsistencies with cbthouse17_ds
+
+cbthouse17_esg
+
+Fixes snow drawing over burns
+Fixes burn texture visuals
+Fixes major texture damage inconsistencies with cbthouse17_es, cbthouse17_dgs
+
+-----------------------------------
+
+cbtrestrn1, cbtrestrn1_d, cbtrestrn1_g, cbtrestrn1_dg
+
+Fixes window offsets
+Fixes window reflections
+Fixes chair visuals
+Fixes roof visuals
+!!!cbtrestrn1_g.w3d, cbtrestrn1_dg.w3d have no reflections on metal roof vent
+
+cbtrestrn1_e
+
+Fixes window reflections
+Removes reflections and holes on steel rods
+Adds darker damages
+!!!cbtrestrn1_e.w3d window blinds should not have reflections
+
+cbtrestrn1_r
+
+Adds darker damages
+Fixes alpha channel damages based on cbtrestrn1_rs
+!!!cbtrestrn1_r.w3d alpha damages do not work correctly
+
+cbtrestrn1_s, cbtrestrn1_ds, cbtrestrn1_sg
+
+Fixes window offsets
+Fixes window reflections
+Fixes chair visuals
+
+cbtrestrn1_es
+
+Removes reflections and holes on steel rods
+Adds darker damages
+Fixes window reflections
+Fixes snow drawing over burns
+Fixes snow inconsistencies with cbtrestrn1_ds
+
+cbtrestrn1_rs
+
+Adds darker damages
+Fixes snow drawing over burns
+Removes window reflections from alpha channel
+!!!cbtrestrn1_rs.w3d alpha damages do not work correctly
+
+cbtrestrn1_dsg
+
+Fixes window offsets
+Fixes window reflections
+Fixes chair visuals
+Fixes snow drawing over burns
+Fixes texture damage inconsistencies with cbtrestrn1_ds
+
+-----------------------------------
+
+### cbhangar01_dn, cbhangar01_dsn
+
+* Removes unexpected window barricades
+
+### cbhangar01_dng, cbhangar01_dsng
+
+* Recreates texture based on new cbhangar01_dn
+
+### cbhangar01_en, cbhangar01_esn
+
+* Optimizes texture size
+
+### cbhangar01_rn, cbhangar01_rsn
+
+* Fixes incorrect night light
+
+### cbhangar01_sn
+
+* Creates 2x upscale to 256x256 based on original cbhangar01_n
+
+-----------------------------------
+
+### cbhangr02_sg
+
+* Fixes sharpness mismatch with cbhangr02_s
+
+### cbhangr02_ds, cbhangr02_dsg, cbhangr02_es, cbhangr02_rs
+
+* Fixes major snow inconsistencies with cbhangr02_s
+
+-----------------------------------
+
+### cbhangar03_d, cbhangar03_dg
+
+* Reduces texture damages
+
+### cbhangar03_e
+
+* Fixes texture damage inconsistencies with cbhangar03_d
+* Removes ghost bullet holes
+* Fixes blurry metal plate
+
+### cbhangar03_n, cbhangar03_ng
+
+* Fixes light bleeding
+* Recreates light visuals
+
+### cbhangar03_dn, cbhangar03_dng
+
+* Reduces texture damages
+* Recreates light visuals
+
+### cbhangar03_en
+
+* Removes night lights
+
+!!! CBHANGAR03_NG.w3d, CBHANGAR03_DNG.w3d use wrong textures
+
+-----------------------------------
+
+cbvhangar1_e, cbvhangar1_es
+
+Removes superfluous black alpha channel
+
+cbvhangar1_g
+
+Removes deep shadows around door
+Removes holes in wall
+
+cbvhangar1_dg
+
+Fixes texture damage inconsistencies with cbvhangar1_d
+Removes holes in wall
+
+cbvhangar1_s
+
+Removes deep shadows around door
+Fixes window reflection artifacts over snow
+
+cbvhangar1_ds
+
+Fixes window reflection artifacts over snow
+
+cbvhangar1_sg
+
+Removes deep shadows around door
+Removes holes in wall
+Fixes minor snow inconsistencies with cbvhangar1_s
+Fixes window reflection artifacts over snow
+
+cbvhangar1_dsg
+
+Removes holes in wall
+Fixes minor texture damage inconsistencies with cbvhangar1_ds
+Fixes window reflection artifacts over snow
+
+-----------------------------------
+
+cbtaprtms1, cbtaprtms1_g
+
+Removes superfluous black alpha channel
+
+cbtaprtms1_e
+
+Fixes texture damage inconsistencies with cbtaprtms1_d
+Fixes burns
+Optimizes alpha channel
+
+cbtaprtms1_r
+
+Fixes texture and alpha channel damage inconsistencies with cbtaprtms1_e
+Adds new damages
+
+cbtaprtms1_ds, cbtaprtms1_dsg
+
+Fixes snow texture inconsistencies with cbtaprtms1_s, cbtaprtms1_sg
+
+cbtaprtms1_es
+
+Fixes snow texture inconsistencies with cbtaprtms1_s
+Fixes burns
+Optimizes alpha channel
+
+cbtaprtms1_r
+
+Fixes texture and alpha channel damage inconsistencies with cbtaprtms1_es
+Adds new damages
+
+-----------------------------------
+
+cbtoildepo_e
+
+Fixes texture damage inconsistencies with cbtoildepo_d
+
+cbtoildepo_r
+
+Fixes texture damage inconsistencies with cbtoildepo_d
+Removes artifacts from concrete walls
+
+cbtoildepo_e
+
+Fixes texture damage inconsistencies with cbtoildepo_ds
+Fixes snow drawing over burns
+
+cbtoildepo_rs
+
+Fixes texture damage inconsistencies with cbtoildepo_ds
+Removes artifacts from concrete walls
+Fixes snow drawing over burns
+
+-----------------------------------
+
+cvdblbus_d1
+
+Fixes texture to still resemble the bus
+
+-----------------------------------
+
+!!!CVPOLICE.w3d, ... have wrong texture mapping for back window
+
+-----------------------------------
+
+cvamblnce1
+
+Perfectly 2x upscales texture based on cvamblnce
+
+cvamblnce1_d
+
+2x upscales texture based on cvamblnce + cvamblnce1_d
+
+cvamblnce1_d1
+
+2x upscales texture based on cvamblnce + cvamblnce1_d1
+Removes obsolete alpha channel
+
+-----------------------------------
+
+cvhumvee
+
+Fixes black gaps on the chassis
+
+cvhumvee_d
+
+Fixes black gaps on the chassis
+Fixes tire looking slightly different than cvhumvee
+Fixes cloth being partly brighter than cvhumvee
+
+cvhumvee_d1
+
+Fixes black gaps on the chassis
+Fixes tire looking slightly different than cvhumvee
+Fixes cloth being partly brighter than cvhumvee
+Fixes missing UN imprint on cloth
+
+-----------------------------------
+
+cvsptcar01
+
+Adds light reflection to car chassis
+
+cvsptcar01_d, cvsptcar01_d1, cvsptcar01_d2
+
+Fixes chassis being brighter than cvsptcar01
+Fixes wrong position of front window column
+Removes obsolete alpha channel
+
+-----------------------------------
+
+cvsedan01_d, cvsedan01_d1, cvsedan01_d2
+
+Removes obsolete alpha channel
+
+-----------------------------------
+
+cvsport1
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvlimo1
+
+Fixes alpha channel and window reflections
+Fixes bright section at the front of the hood
+Fixes bright bottom of chassis
+
+cvlimo2
+
+Fixes alpha channel and window reflections
+Fixes bright section at the front of the hood
+
+cvlimo3
+
+Fixes bright section at the front of the hood
+Fixes bright bottom of chassis
+!!!cvlimo3_d1, cvlimo3_d2 do not need fixing
+
+-----------------------------------
+
+cvjunk, cvjunk_d
+
+2x upscales texture based on cvjunk2
+
+cvjunk_d1
+
+2x upscales texture based on cvjunk2
+Fixes alpha channel inconsistencies with cvjunk_d
+
+-----------------------------------
+
+cvbmw, cvbmw_d1, cvbmw_d2
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvbmw2, cvbmw2_d1, cvbmw2_d2
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvbmw3, cvbmw3_d1, cvbmw3_d2
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvbug1, cvbug2, cvbug3
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvcamaro, cvcamaro_d, cvcamaro_d1, cvcamaro_d2
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cvhrsecrt_horse
+
+Removes superfluous black alpha channel
+
+
+
+-----------------------------------
+
+pmbillbrd03
+
+Fixes brightness level of billboard posters to match pmbillbrd03_d more closely
+
+-----------------------------------
+
+pmbarrel01_ds, pmbarrel01_es
+
+Fixes snow position shift
+Fixes snow drawing over burns
+
+-----------------------------------
+
+pmprklypr, pmprklypr_d
+
+Removes outlines and pixels in alpha channel
+
+pmprklyprs, pmprklyprs_d
+
+Removes outlines and pixels in alpha channel
+
+-----------------------------------
+
+pmtmbweed01, pmtmbweed02, pmtmbweed02_d, pmtmbweed03
+
+Removes outlines and pixels in alpha channel
+
+pmtmbweed01_d, pmtmbweed03_d
+
+Removes outlines and pixels in alpha channel
+Fixes pixel offset in alpha channel
+
+-----------------------------------
+
+pmyaka, pmyaka_d, pmyakasnw, pmyakasnw_d
+
+Fixes black level in alpha channel
+Removes outlines and pixels in alpha channel
+
+-----------------------------------
+
+ptblossom01_b
+
+Removes outlines and pixels in alpha channel
+
+-----------------------------------
+
+ptdogwod01_b
+
+Optimize alpha channel based on ptoakfall
+
+ptoakfall
+
+Optimize alpha channel based on ptdogwod01_b
+
+-----------------------------------
+
+ptpalm02c
+
+Removes detached pixels in alpha channel
+
+-----------------------------------
+
+ptreed01
+
+Fixes gaps in alpha channel
+
+-----------------------------------
+
+ptxfir01, ptxfir02, ptxfir03, ptxfir04, ptxfir05, ptxfir06, ptxfir07, ptxfir08, ptxfir09, ptxfir10
+
+Removes faint outlines and pixels in alpha channel
+
+-----------------------------------
+
+ptxoak01, ptxoak02, ptxoak05, ptxoak06
+
+Removes detached pixels in alpha channel
+
+-----------------------------------
+
+ptxpalm02_b
+
+Adds alpha channel to palm tree based on ptxpalm02_c
+
+-----------------------------------
+
+ptxpine03, ptxpine04, ptxpine05, ptxpine06, ptxpine07, ptxpine08
+
+Removes faint outlines and pixels in alpha channel
+
+-----------------------------------
+
+zbsupdrop_ds, zbsupdrop_es
+
+Fixes snow position shift
+Fixes snow drawing over burns
+
+-----------------------------------
+
+zbsupplydk_ds, zbsupplydk_es
+
+Fixes snow looking different than zbsupplydk_s
+Fixes snow drawing over burns
+
+-----------------------------------
+
+zbhospital3_d
+
+Fixes bright burns
+Removes big hole on roof
+
+zbhospital3_e
+
+Removes big hole on roof and adds burns
+Fixes sharp edges on burns
+
+zbhospital3_ds, zbhospital3_es
+
+Fixes snow looking different than zbhospital3_s
+Fixes snow drawing over burns
+
+-----------------------------------
+
+zbhospital_d, zbhospital_e
+
+Fixes window reflections under dirt
+Fixes tiling seams with existing UV mapping
+
+zbhospital_ds, zbhospital_es
+
+Fixes snow looking different than zbhospital_s
+Fixes snow drawing over burns
+Fixes tiling seams with existing UV mapping
+
+-----------------------------------
+
+zbrprbay_s, zbrprbay_ds
+
+Fixes snow tiling seams for roof UV mapping
+
+zbrprbay_es
+
+Fixes snow tiling seams for roof UV mapping
+Fixes texture damage and snow inconsistencies with zbrprbay_ds
+
+-----------------------------------
+
+ztroof02_ds
+
+Fixes snow position shift to ztroof02_s
+Fixes snow drawing over burns
+
+-----------------------------------
+
+ztslab_ds, ztslab_es
+
+Fixes snow looking different than ztslab_s
+Fixes snow drawing over burns
+
+-----------------------------------
+
+ztoilpump_ds, ztoilpump_es
+
+Fixes snow position shift to ztoilpump_s
+Fixes snow drawing over burns
+
+!!!ZBODERRICK_E.w3d, ZBODERRICK_ES.w3d use D, DS texture
+
+-----------------------------------
+
+pxsandbags2_e
+
+Fixes minor texture damage inconsistencies with pxsandbags2_d
+
+-----------------------------------
+
+pxsandbags2_s, pxsandbags2_ds, pxsandbags2_es
+
+Changes blue snow to more white snow
+
+-----------------------------------
+
+roofparts01_s
+
+Fixes minor wrong structure position
+
+-----------------------------------
+
+sccemppulse_china
+
+Fixes unpolished decal edges in alpha channel
+
+-----------------------------------
+
+tbdoubwide_r
+
+Fixes seam on rubble damages
+Fixes minor texture damage inconsistencies tbdoubwide_e
+
+-----------------------------------
+
+pmtower_d, pmtower_ds
+
+Repaints damaged window
+Repaints damaged roof
+
+pmtower_g
+
+Decreases brightness of window barricades to better match rest of texture
+
+pmtower_dg, pmtower_dsg
+
+Decreases brightness of window barricades to better match rest of texture
+Repaints damaged window and barricade
+Repaints damaged roof
+
+pmtower_sg
+
+Decreases brightness of window barricades to better match rest of texture
+Adds missing snow to window barricades
+
+-----------------------------------
+
+cbtower_d, cbtower_ds
+
+Repaints damaged window
+Repaints damaged roof
+Removes superfluous black alpha channel
+
+cbtower_e, cbtower_es
+
+Repaints damaged window
+Repaints damaged roof
+
+cbtower_r, cbtower_rs
+
+Repaints damaged window
+Repaints damaged roof
+Adds missing pieces to alpha channel
+
+cbtower_g
+
+Decreases brightness of window barricades to better match rest of texture
+
+cbtower_dg
+
+Fixes wrong textures
+!!! Add to w3d??
+
+cbtower_sg
+
+Decreases brightness of window barricades to better match rest of texture
+Adds missing snow to window barricades
+
+cbtower_dsg
+
+Repaints damaged window
+Repaints damaged roof
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbwbrdgest_r
+
+Fixes bridge texture discrepancies with cbwbrdgest
+Adds more damages for cbwbrdgest_e
+
+-----------------------------------
+
+cbwrfwhrs
+
+Fixes strong sharpness
+
+cbwrfwhrs_d
+
+Removes superfluous black alpha channel
+
+cbwrfwhrs_r
+
+Adds missing bullet holes of cbwrfwhrs_e
+Optimize damages in alpha channel
+
+cbwrfwhrs_g
+
+Fixes strong sharpness
+Removes obsolete alpha channel
+
+cbwrfwhrs_dg
+
+Fixes one barricade looking slightly different than in cbwrfwhrs_g
+Removes obsolete alpha channel
+!!!cbwrfwhrs_dg.w3d uses cbwrfwhrs_d texture
+
+cbwrfwhrs_s, cbwrfwhrs_sg
+
+2x upscales texture
+Removes superfluous white alpha channel
+
+cbwrfwhrs_ds, cbwrfwhrs_dsg
+
+2x upscales texture
+Removes obsolete alpha channel
+
+cbwrfwhrs_es
+
+2x upscales texture
+
+cbwrfwhrs_rs
+
+2x upscales texture
+Fixes snow drawing over burns
+Adds missing bullet holes of cbwrfwhrs_es
+Optimize damages in alpha channel
+
+-----------------------------------
+
+## cbwrfwhrs2_dg
+
+* Creates 2x upscale to 512x512, a copy of cbwrfwhrs2_d
+
+## cbwrfwhrs2_e
+
+* Fixes major texture damage inconsistencies with cbwrfwhrs2_d
+* Fixes floating pixels in alpha channel
+
+## cbwrfwhrs2_r
+
+* Fixes major texture damage inconsistencies with cbwrfwhrs2_d
+* Fixes alpha channel damage inconsistencies with cbwrfwhrs2_e
+* Fixes floating pixels in alpha channel
+* Adds more texture damages
+
+## cbwrfwhrs2_s, cbwrfwhrs2_ds, cbwrfwhrs2_sg
+
+* Creates 2x upscale to 512x512
+!!! Maybe export as cbwrfwhrs2_sg, cbwrfwhrs2_dsg, or fix W3D to just use cbwrfwhrs2_s, cbwrfwhrs2_ds when garrisoned
+
+## cbwrfwhrs2_es
+
+* Creates 2x upscale to 512x512
+* Fixes floating pixels in alpha channel
+* Adds missing holes in alpha channel
+
+## cbwrfwhrs2_rs
+
+* Creates 2x upscale to 512x512
+* Fixes floating pixels in alpha channel
+* Adds missing alpha channel
+
+## cbwrfwhrs2_en, cbwrfwhrs2_rn, cbwrfwhrs2_esn, cbwrfwhrs2_rsn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+## rubble_n, rubble_sn, rubble_sn3, rubble2_n, rubble2_sn, rubble3_n, rubble3_sn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+cbnukebunk2_e
+
+Fixes burn texture
+Adds a few more damages
+
+-----------------------------------
+
+cbntemple_roof_es, cbntemple_roof_rs
+
+Fixes texture damage inconsistencies with cbntemple_roof_ds
+
+!!! cbntemple_roof w3d use duplicate textures cbntemple_roof and cbntemple_roof1
+
+-----------------------------------
+
+cbntemple_wall, cbntemple_wall_d1
+
+Removes superfluous black alpha channel
+
+cbntemple_wall_g, cbntemple_wall_dg, cbntemple_wall_s, cbntemple_wall_ds, cbntemple_wall_sg, cbntemple_wall_dsg
+
+Removes superfluous alpha channel
+
+-----------------------------------
+
+cbsilverduct01
+
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbtrestrn2, cbtrestrn2_g, cbtrestrn2_s, cbtrestrn2_sg
+
+Fixes balcony visuals
+Fixes minor missing window reflection
+
+cbtrestrn2_d, cbtrestrn2_dg, cbtrestrn2_ds
+
+Fixes balcony visuals
+Fixes minor missing window reflection
+Removes hole from balcony
+
+cbtrestrn2_e
+
+Removes hole from balcony
+Fixes texture brightness inconsistencies with cbtrestrn2_d
+
+cbtrestrn2_r
+
+Fixes texture damage inconsistencies with cbtrestrn2_e
+Fixes alpha channel damage inconsistencies with cbtrestrn2_e
+
+cbtrestrn2_es
+
+Removes hole from balcony
+Fixes texture brightness inconsistencies with cbtrestrn2_ds
+Fixes snow drawing over dirt
+
+cbtrestrn2_rs
+
+Fixes texture damage inconsistencies with cbtrestrn2_es
+Fixes alpha channel damage inconsistencies with cbtrestrn2_es
+Fixes snow drawing over dirt
+
+cbtrestrn2_dsg
+
+Fixes balcony visuals
+Fixes minor missing window reflection
+Removes hole from balcony
+Adds missing damages to window barricades
+
+-----------------------------------
+
+### cbndealers_g, cbndealers_dg
+
+* Fixes barricade texture mismatch with cbndealers_ng, cbndealers_dng
+
+### cbndealers_s
+
+* Fixes window reflections over snow in alpha channel
+
+### cbndealers_ds
+
+* Fixes snow drawing over burns and damages
+* Fixes window reflections over snow in alpha channel
+
+### cbndealers_es, cbndealers_rs
+
+* Fixes snow drawing over burns and damages
+
+### cbndealers_sg
+
+* Fixes snow texture mismatch with cbndealers_s
+* Fixes barricade texture mismatch with cbndealers_sng
+* Fixes window reflections over snow in alpha channel
+
+### cbndealers_dsg
+
+* Fixes barricade texture mismatch with cbndealers_dsng
+* Fixes window reflections over snow in alpha channel
+
+### cbndealers_n
+
+* Decreases brightness of shop light
+
+### cbndealers_dn
+
+* Recreates damaged lights
+
+### cbndealers_en, cbndealers_rn, cbndealers_esn, cbndealers_rsn
+
+* Fixes incorrect night light
+
+### cbndealers_ng
+
+* Fixes window barricade artifacts
+* Decreases brightness of shop light
+
+### cbndealers_dng
+
+* Fixes window barricade artifacts
+* Recreates damaged lights
+
+### cbndealers_sn
+
+* Fixes window light over snow
+* Fixes window barricade artifacts
+* Decreases brightness of shop light
+
+### cbndealers_dsn
+
+* Fixes window light over snow
+* Recreates damaged lights
+
+### cbndealers_sng
+
+* Fixes window light over snow
+* Decreases brightness of shop light
+
+### cbndealers_dsng
+
+* Fixes barricade light discrepancies with cbndealers_sng
+* Fixes window light over snow
+* Recreates damaged lights
+
+
+!!! CBNDEALERS_DSG.w3d uses summer day car podium
+!!! CBNDEALERS_SN.w3d, CBNDEALERS_DSN.w3d has no light on car podium
+!!! CBNDEALERS_SNG.w3d uses summer night car podium
+!!! CBNDEALERS_DSNG.w3d uses summer day car podium
+
+-----------------------------------
+
+### cbnapart01_e
+
+* Removes superfluous alpha channel
+
+### cbnapart01_g, cbnapart01_dg
+
+* Removes unexpected bullet holes from textures
+
+### cbnapart01_s
+
+* Fixes minor snow inconsistencies with cbnapart01_ds
+* Adds missing snow to window reflections in alpha channel
+
+### cbnapart01_ds
+
+* Fixes snow drawing over dirt
+* Fixes dark snow at main entrance
+* Adds missing snow to window reflections in alpha channel
+
+### cbnapart01_es
+
+* Fixes snow drawing over dirt
+* Fixes minor texture damage inconsistencies with cbnapart01_ds
+* Removes superfluous alpha channel
+
+### cbnapart01_rs
+
+* Fixes snow drawing over dirt
+* Fixes minor texture damage inconsistencies with cbnapart01_es
+
+### cbnapart01_sg, cbnapart01_dsg
+
+* Removes unexpected bullet holes from textures
+* Fixes minor snow inconsistencies with cbnapart01_s, cbnapart01_ds
+* Adds missing snow to window reflections in alpha channel
+
+### cbnapart01_n
+
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+* Removes superfluous black alpha channel
+
+### cbnapart01_ng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+
+### cbnapart01_dn
+
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+* Improves light damages
+
+### cbnapart01_dng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+* Improves light damages
+
+### cbnapart01_sn
+
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow to window lights
+* Improves light visuals
+
+### cbnapart01_sng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow to window lights
+* Improves light visuals
+
+### cbnapart01_dsn
+
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow to window lights
+* Improves light visuals
+* Improves light damages
+
+### cbnapart01_dsng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow to window lights
+* Improves light visuals
+* Improves light damages
+
+### cbnapart01_en
+
+* Fixes incorrect night light
+
+
+!!! CBNAPART01_DSN.w3d is not using cbnapart01_dsn texture
+
+-----------------------------------
+
+### cbnbarncoo_d, cbnbarncoo_dg, cbnbarncoo_ds
+
+* Fixes minor damage inconsistencies with cbnbarncoo_e, cbnbarncoo_es
+
+### cbnbarncoo_dsg
+
+* Fixes minor damage inconsistencies with cbnbarncoo_es
+* Removes sudden snow on window barricades
+
+### cbnbarncoo_g
+
+* Adds missing window barricades
+
+### cbnbarncoo_n, cbnbarncoo_ng, cbnbarncoo_sn, cbnbarncoo_sng
+
+* Fixes minor light artifacts
+
+### cbnbarncoo_dn, cbnbarncoo_dng, cbnbarncoo_dsn, cbnbarncoo_dsng
+
+* Fixes minor light artifacts
+* Fixes barn door light inconsistencies with cbnbarncoo_n
+* Recreates light damages
+
+### cbnbarncoo_esn
+
+* Optimizes texture size
+
+
+!!! CBNBARNCOO_SNG.w3d has z clipping wall
+
+-----------------------------------
+
+### cbnbank_dg
+
+* Adds missing damages to window barricades
+* Fixes minor window reflection inconsistencies with cbnbank_g
+
+### cbnbank_s
+
+* Fixes dark ground snow edge at entrance
+* Fixes snow transition between lower roof and window facade
+* Fixes window reflections over snow in alpha channel
+
+### cbnbank_ds
+
+* Fixes dark ground snow edge at entrance
+* Fixes snow transition between lower roof and window facade
+* Fixes snow drawing over burns
+* Fixes window reflections over snow in alpha channel
+* Fixes window reflections over damages in alpha channel
+
+### cbnbank_es, cbnbank_rs
+
+* Fixes dark ground snow edge at entrance
+* Fixes snow transition between lower roof and window facade
+* Fixes snow drawing over burns
+
+### cbnbank_sg
+
+* Fixes dark ground snow edge at entrance
+* Fixes snow transition between lower roof and window facade
+* Fixes window reflections over snow in alpha channel
+* Fixes window reflections over barricades in alpha channel
+
+### cbnbank_dsg
+
+* Fixes dark ground snow edge at entrance
+* Fixes snow transition between lower roof and window facade
+* Fixes snow drawing over burns
+* Adds missing damages to window barricades
+* Fixes window reflections over snow in alpha channel
+* Fixes window reflections over damages in alpha channel
+* Fixes window reflections over barricades in alpha channel
+
+### cbnbank_n
+
+* Fixes black level
+* Fixes window light sizes
+* Decreases light brightness
+
+### cbnbank_dn
+
+* Fixes black level
+* Fixes window light sizes
+* Recreates light damages
+
+### cbnbank_en, cbnbank_rn, cbnbank_esn, cbnbank_rsn
+
+* Fixes incorrect night light
+
+### cbnbank_ng
+
+* Fixes window barricade artifacts
+* Fixes black level
+* Fixes window light sizes
+* Decreases light brightness
+
+### cbnbank_dng
+
+* Fixes window barricade artifacts
+* Fixes black level
+* Fixes window light sizes
+* Recreates light damages
+
+### cbnbank_sn
+
+* Fixes black level
+* Fixes window light sizes
+* Decreases light brightness
+
+### cbnbank_dsn
+
+* Fixes window light sizes
+* Fixes window light over snow
+* Recreates light damages
+
+### cbnbank_sng
+
+* Fixes window barricade artifacts
+* Fixes black level
+* Fixes window light sizes
+* Fixes window light over snow
+* Decreases light brightness
+
+### cbnbank_dsng
+
+* Fixes window barricade artifacts
+* Fixes black level
+* Fixes window light sizes
+* Fixes window light over snow
+* Recreates light damages
+
+
+!!! CBNBANK_DG.w3d, CBNBANK_DSG.w3d have partly strange texture mapping on window facade
+!!! Some models have slightly mismatching and shifted texture mapping on center house facade
+!!! Night models show slightly imperfect mapped textures on house facade
+
+-----------------------------------
+
+### cbnbtraist_window, cbnbtraist, cbnbtraist_d, cbnbtraist_g, cbnbtraist_dg, cbnbtraist_s, cbnbtraist_ds, cbnbtraist_sg, cbnbtraist_dsg
+
+* Fixes edges of windows
+
+### cbnbtraist_e, cbnbtraist_r, cbnbtraist_es, cbnbtraist_rs
+
+* Fixes edges of windows
+* Fixes floating pixels in alpha channel
+
+### cbnbtraist_n, cbnbtraist_ng, cbnbtraist_sn, cbnbtraist_sng
+
+* Fixes feathered lights
+
+### cbnbtraist_dn, cbnbtraist_dng
+
+* Fixes feathered lights
+* Increases light brightness
+
+### cbnbtraist_en, cbnbtraist_rn
+
+* Fixes incorrect night light
+
+### cbnbtraist_dsn, cbnbtraist_dsng
+
+* Fixes feathered lights
+* Fixes snow artifacts
+* Increases light brightness
+
+### cbnbtraist_esn, cbnbtraist_rsn
+
+* Optimizes texture size
+
+
+!!! Some models use duplicate textures: cbnbtraist, cbnbtraist_g: duplicate of cbnbtraist_window
+!!! Some models use duplicate textures: cbnbtraist_d: duplicate of cbnbtraist_dg
+!!! Some models use duplicate textures: cbnbtraist_sg: duplicate of cbnbtraist_s
+!!! Some models use duplicate textures: cbnbtraist_dsg: duplicate of cbnbtraist_ds
+
+-----------------------------------
+
+### cbnbtraist_ceiling_dg
+
+* Fixes mismatching texture seam
+* Removes dark blob window damages
+* Adds broken glass damages
+
+### cbnbtraist_ceiling_e, cbnbtraist_ceiling_r
+
+* Fixes mismatching texture seam
+* Fixes minor texture damage inconsistencies with cbnbtraist_ceiling_dg
+* Fixes edges of broken glass in alpha channel
+
+### cbnbtraist_ceiling_ds, cbnbtraist_ceiling_dsg
+
+* Fixes mismatching texture seam
+* Removes dark blob window damages
+* Fixes window reflection over snow in alpha channel
+
+### cbnbtraist_ceiling_es, cbnbtraist_ceiling_rs
+
+* Fixes mismatching texture seam
+* Fixes minor texture damage inconsistencies with cbnbtraist_ceiling_ds
+* Fixes edges of broken glass in alpha channel
+
+
+!!! Some models use duplicate textures: cbnbtraist_ceiling_dsg: duplicate of cbnbtraist_ceiling_ds
+!!! Some models use duplicate textures: cbnbtraist_ceiling_g: duplicate of cbnbtraist_ceiling
+!!! Some models use duplicate textures: cbnbtraist_ceiling_sg: duplicate of cbnbtraist_ceiling_s
+
+-----------------------------------
+
+!!! cbetvstat_dg.w3d, cbetvstat_dsg.w3d: small radar dish has different UV mapping
+!!! cbetvstat_sg.w3d, cbetvstat_sg.w3d: uses partly incorrect texture: is missing snow on radar dishes
+!!! cbetvstat_es.w3d, cbetvstat_rs.w3d renders reflections instead of holes
+!!! cbetvstat_n.w3d and other night models render night lights on some wall edges
+
+### cbetvstat_s
+
+* Fixes major snow inconsistencies with cbetvstat_sg, cbetvstat_ds
+* Fixes wrong reflections in alpha channel
+
+### cbetvstat_ds, cbetvstat_dsg
+
+* Fixes and improves texture damages
+* Adds missing window reflections
+
+### cbetvstat_es
+
+* Fixes texture damage inconsistencies with cbetvstat_ds
+* Fixes wrong damages in alpha channel
+
+### cbetvstat_rs
+
+* Fixes texture damage inconsistencies with cbetvstat_ds, cbetvstat_es
+* Fixes wrong damages in alpha channel
+
+### cbetvstat_sg
+
+* Fixes window reflections drawing over snow a bit
+
+### cbetvstat_ng, cbetvstat_dng
+
+* Fixes unexpected outlines around window barricades
+
+### cbetvstat_dsn
+
+* Fixes major night light inconsistencies with cbetvstat_sn
+
+### cbetvstat_sng
+
+* Fixes unexpected outlines around window barricades
+* Fixes minor night light inconsistencies with cbetvstat_sn
+
+### cbetvstat_dsng
+
+* Fixes night light over window barricades
+* Fixes night light inconsistencies with cbetvstat_dsn
+
+### cbetvstat_en
+
+* Fixes incorrect night lights
+
+-----------------------------------
+
+!!! CBEUROCND_ESN.w3d uses non-snow textures
+!!! CBEUROCND_RN.w3d, CBEUROCND_RS.w3d, CBEUROCND_RSN.w3d are missing alpha draw on damages
+
+### cbeurocnd_dg
+
+* Fixes window reflections over window damages
+
+### cbeurocnd_e, cbeurocnd_r, cbeurocnd_es, cbeurocnd_rs
+
+* Fixes floating pixels in alpha channel
+
+### cbeurocnd_s
+
+* Fixes minor snow discrepancies with cbeurocnd_sg
+* Fixes missing snow on window reflections
+
+### cbeurocnd_ds
+
+* Fixes minor snow discrepancies with cbeurocnd_dsg
+* Fixes shadows on ground floor
+
+### cbeurocnd_sg
+
+* Fixes missing snow on window reflections
+
+### cbeurocnd_dsg
+
+* Fixes shadows on ground floor
+* Fixes error on window reflections
+
+### cbeurocnd_n
+
+* Removes superfluous alpha channel
+
+### cbeurocnd_dn, cbeurocnd_dng, cbeurocnd_dsn, cbeurocnd_dsng
+
+* Fixes faint night light artifacts
+
+### cbeurocnd_en, cbeurocnd_rn, cbeurocnd_esn, cbeurocnd_rsn
+
+* Optimizes texture size
+
+
+-----------------------------------
+
+### cbeurocnd2_dg
+
+* Removes wrong snow from texture
+
+### cbeurocnd2_e
+
+* Removes window barricades
+* Fixes texture damage inconsistencies with cbeurocnd_d
+* Fixes floating pixels from broken windows in alpha channel
+
+### cbeurocnd2_es
+
+* Fixes minor texture brightness inconsistencies with cbeurocnd_d
+* Fixes floating pixels from broken windows in alpha channel
+
+### cbeurocnd2_r, cbeurocnd2_rs
+
+* Fixes major texture inconsistencies with cbeurocnd_e, cbeurocnd_es
+* Fixes alpha channel damage inconsistencies with cbeurocnd_e, cbeurocnd_es
+
+### cbeurocnd2_dn
+
+* Fixes night light artifacts
+
+### cbeurocnd2_ng
+
+* Fixes night light inconsistencies with cbeurocnd2_n
+
+### cbeurocnd2_dng
+
+* Fixes night light inconsistencies with cbeurocnd2_n, cbeurocnd2_dn
+
+### cbeurocnd2_en, cbeurocnd2_rn, cbeurocnd2_rsn
+
+* Optimizes texture size
+
+### cbeurocnd2_esn
+
+* Fixes incorrect night lights
+
+
+!!! CBEUROCND_N.w3d, CBEUROCND_NG.w3d, CBEUROCND_DN.w3d, CBEUROCND_DNG.w3d, CBEUROCND_SN.w3d, CBEUROCND_SNG.w3d, CBEUROCND_DSN.w3d, CBEUROCND_DSNG.w3d use wrong night material on house
+
+-----------------------------------
+
+### cbeuropkg, cbeuropkg_d, cbeuropkg_g, cbeuropkg_dg
+
+* Removes superfluous black alpha channel
+
+### cbeuropkg_r
+
+* Fixes texture damage inconsistencies with cbeuropkg_e
+* Adds missing alpha channel
+
+### cbeuropkg_s, cbeuropkg_ds
+
+* Creates 2x upscale to 512x512
+* Removes superfluous black or white alpha channel
+
+### cbeuropkg_es
+
+* Creates 2x upscale to 512x512
+
+### cbeuropkg_rs
+
+* Creates 2x upscale to 512x512
+* Fixes texture damage inconsistencies with cbeuropkg_e
+* Adds missing alpha channel
+
+### cbeuropkg_sg
+
+* Creates 2x upscale to 512x512
+* Fixes snow inconsistencies with cbeuropkg_s
+
+### cbeuropkg_dsg
+
+* Creates 2x upscale to 512x512
+
+### cbeuropkg_n
+
+* Fixes minor night light artifacts
+
+### cbeuropkg_dn
+
+* Adds damaged night lights
+
+### cbeuropkg_sn
+
+* Creates 2x upscale to 512x512
+
+### cbeuropkg_dsn
+
+* Adds new texture based on cbeuropkg_sn, cbeuropkg_dn
+
+### cbeuropkg_en, cbeuropkg_rblack
+
+* Fixes incorrect night lights
+
+!!! CBEUROPKG_NG.w3d is not using night light texture
+!!! CBEUROPKG_DN.w3d, CBEUROPKG_DNG.w3d needs night lights removed from top floor
+!!! CBEUROPKG_DSN.w3d can use new cbeuropkg_dsn texture
+
+-----------------------------------
+
+### cbnaptbuil_ceil_ds, cbnaptbuil_ceil_es
+
+* Fixes snow position mismatch with cbnaptbuil_ceil_s
+
+-----------------------------------
+
+### cbnaptbuil_wall_d, cbnaptbuil_wall_dg
+
+* Fixes texture damage inconsistencies with cbnaptbuil_wall_e
+
+### cbnaptbuil_wall_s
+
+* Fixes snow inconsistencies with cbnaptbuil_wall_gs, cbnaptbuil_wall_ds
+
+### cbnaptbuil_wall_ds
+
+* Fixes texture damage inconsistencies with cbnaptbuil_wall_es
+
+### cbnaptbuil_wall_dsg
+
+* Fixes snow inconsistencies with cbnaptbuil_wall_gs
+* Fixes texture damage inconsistencies with cbnaptbuil_wall_es
+
+### cbnaptbuil_wall_n
+
+* Recreates house lights
+* Fixes house lights over window barricades
+
+
+!!! CBNAPTBUIL_WALL_N.w3d, etc wall does not darken, but lights do
+
+-----------------------------------
+
+### cbnaptcom_ceiling_n, cbnaptcom_ceiling_dn, cbnaptcom_ceiling_sn, cbnaptcom_ceiling_dsn
+
+* Recreates house lights
+* Fixes black level
+
+### cbnaptcom_ceiling_en
+
+* Optimizes texture size
+
+
+!!! CBNAPTCOM_N.w3d is not using cbnaptcom_ceiling_n
+
+-----------------------------------
+
+### cbnaptcom_roof_d
+
+* Fixes wrong texture
+
+### cbnaptcom_roof_e
+
+* New
+
+### cbnaptcom_roof_n, cbnaptcom_roof_dn, cbnaptcom_roof_sn, cbnaptcom_roof_dsn
+
+* Recreates house light
+
+
+!!! CBNAPTCOM_E.w3d uses cbnaptcom_roof_d texture
+
+-----------------------------------
+
+### cbnaptcom_wall_e
+
+* Adds additional texture damages so it looks different to cbnaptcom_wall_d
+
+### cbnaptcom_wall_r
+
+* Fixes major light differences with cbnaptcom_wall_e
+
+### cbnaptcom_wall_dg
+
+* Fixes major texture damage inconsistencies with cbnaptcom_wall_d
+
+### cbnaptcom_wall_ds
+
+* Fixes snow drawing over burns
+
+### cbnaptcom_wall_es
+
+* Fixes snow drawing over burns
+* Fixes snow inconsistencies with cbnaptcom_wall_ds
+
+### cbnaptcom_wall_rs
+
+* Fixes snow drawing over burns
+* Fixes major light differences with cbnaptcom_wall_es
+
+### cbnaptcom_wall_dsg
+
+* Fixes snow drawing over burns
+* Fixes snow inconsistencies with cbnaptcom_wall_ds
+
+### cbnaptcom_wall_n, cbnaptcom_wall_dn, cbnaptcom_wall_ng, cbnaptcom_wall_dng, cbnaptcom_wall_sn, cbnaptcom_wall_dsn, cbnaptcom_wall_sng, cbnaptcom_wall_dsng
+
+* Recreates house lights
+
+### cbnaptcom_wall_en
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbnaptcom_wall2_e
+
+* Fixes major texture damage inconsistencies with cbnaptcom_wall2_d
+
+### cbnaptcom_wall2_r
+
+* Fixes major light differences with cbnaptcom_wall2_e
+
+### cbnaptcom_wall2_ds
+
+* Fixes snow drawing over burns
+
+### cbnaptcom_wall2_es
+
+* Fixes snow inconsistencies with cbnaptcom_wall2_ds
+
+### cbnaptcom_wall2_rs
+
+* Fixes major light differences with cbnaptcom_wall2_es
+* Fixes snow drawing over burns
+
+### cbnaptcom_wall2_n, cbnaptcom_wall2_dn, cbnaptcom_wall2_ng, cbnaptcom_wall2_dng, cbnaptcom_wall2_sn, cbnaptcom_wall2_dsn, cbnaptcom_wall2_sng, cbnaptcom_wall2_dsng
+
+* Recreates house lights
+
+### cbnaptcom_wall2_en
+
+* Fixes incorrect night light
+
+
+!!! CBNAPTCOM_SN.w3d is not using cbnaptcom_wall2_sn texture
+!!! Sandbags on garrisoned models are z clipping
+!!! CBNAPTCOM_E.w3d et al has 2 superfluous grey planes
+!!! CBNAPTCOM_D.w3d is using both cbnaptcom_wall2_d and cbnaptcom_wall2 _d (with a space)
+
+-----------------------------------
+
+### cbnapunit_wall, cbnapunit_d, cbnapunit_e, cbnapunit_s, cbnapunit_ds, cbnapunit_es
+
+* Removes superfluous alpha channel
+
+### cbnapunit_g, cbnapunit_dg
+
+* Fixes minor artifacts around window barricades
+* Decreases high saturation of window barricades
+* Removes superfluous alpha channel
+
+### cbnapunit_sg, cbnapunit_dsg
+
+* Fixes minor snow inconsistencies with cbnapunit_s, cbnapunit_ds
+* Fixes minor artifacts around window barricades
+* Decreases high saturation of window barricades
+* Removes superfluous alpha channel
+
+### cbnapunit_n, cbnapunit_dn, cbnapunit_ng, cbnapunit_dng, cbnapunit_sn, cbnapunit_dsn, cbnapunit_sng, cbnapunit_dsng
+
+* Recreates house lights
+
+### cbnapunit_en, cbnapunit_rn
+
+* Fixes incorrect night light
+
+!!! cbnapunit_sg.w3d is using wrong texture cbnapunit_s
+
+-----------------------------------
+
+### cbnarcade, cbnarcade_d, cbnarcade_g
+
+* Fixes staircase visuals
+* Fixes window visuals and reflections
+
+### cbnarcade_e, cbnarcade_r
+
+* Fixes staircase visuals
+
+### cbnarcade_dg
+
+* Fixes staircase visuals
+* Fixes window visuals and reflections
+* Fixes minor texture damage inconsistencies with cbnarcade_d
+* Adds missing alpha channel
+
+### cbnarcade_s
+
+* Fixes staircase visuals
+* Fixes minor window reflection errors
+
+### cbnarcade_ds
+
+* Fixes staircase visuals
+* Fixes snow inconsistencies with cbnarcade_s
+* Fixes major texture damage inconsistencies with cbnarcade_es
+
+### cbnarcade_es
+
+* Fixes staircase visuals
+* Fixes major texture damage inconsistencies with cbnarcade_ds
+
+### cbnarcade_rs
+
+* Fixes staircase visuals
+* Fixes texture damage inconsistencies with cbnarcade_es
+
+### cbnarcade_sg
+
+* Fixes staircase visuals
+* Fixes window reflection drawing over window barricades
+
+### cbnarcade_dsg
+
+* Fixes staircase visuals
+* Fixes snow inconsistencies with cbnarcade_s
+* Fixes major texture damage inconsistencies with cbnarcade_es
+* Fixes window reflection drawing over window barricades
+
+### cbnarcade_n, cbnarcade_dn
+
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+
+### cbnarcade_ng, cbnarcade_dng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Improves light visuals
+
+### cbnarcade_sn, cbnarcade_dsn
+
+* Fixes incorrect night light
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow
+* Improves light visuals
+
+### cbnarcade_sng, cbnarcade_dsng
+
+* Fixes window barricade artifacts
+* Fixes window light sizes and positions
+* Adds missing window lights
+* Adds missing snow
+* Improves light visuals
+
+### cbnarcade_en, cbnarcade_rn, cbnarcade_esn, cbnarcade_rsn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbnboatdoc, cbnboatdoc_d, cbnboatdoc_s, cbnboatdoc_ds
+
+* Fixes minor damage artifacts on wooden planks in alpha channel
+
+### cbnboatdoc_e, cbnboatdoc_r
+
+* Fixes minor damage artifacts on wooden planks in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbnboatdoc_es, cbnboatdoc_rs
+
+* Fixes minor damage inconsistencies with cbnboatdo2_ds
+* Fixes minor damage artifacts on wooden planks in alpha channel
+* Fixes floating pixels in alpha channel
+
+### cbnboatdoc_n, cbnboatdoc_dn
+
+* Increases light brightness
+* Increases light feather
+
+### cbnboatdoc_sn, cbnboatdoc_dsn
+
+* Increases light feather
+
+### cbnboatdoc_en
+
+* Fixes incorrect night light
+
+### cbnboatdoc_esn
+
+* Optimizes texture size
+
+-----------------------------------
+
+### cbnboatdo2_e, cbnboatdo2_r
+
+* Fixes floating pixels in alpha channel
+
+### cbnboatdo2_es, cbnboatdo2_rs
+
+* Fixes missing snow on booths
+* Fixes snow drawing over burns
+* Fixes floating pixels in alpha channel
+
+### cbnboatdo2_en
+
+* Fixes incorrect night light
+
+### cbnboatdo2_esn
+
+* Optimizes texture size
+
+
+!!! CBNBOATDO2.w3d at al lanterns have bad shape, are missing alpha
+!!! CBNBOATDO2.w3d at al wooden pillars have bad texture mapping
+!!! CBNBOATDO2.w3d at al booth is missing polygons at back side
+
+-----------------------------------
+
+cbntvstat, cbntvstat_d, cbntvstat_dg
+
+Improves texture quality by recreating it from uncompressed textures
+Optimizes window reflections in alpha channel
+
+cbntvstat_g
+
+Improves texture quality by recreating it from uncompressed textures
+Fixes window reflections over window barricades in alpha channel
+
+cbntvstat_e, cbntvstat_r
+
+Improves texture quality by recreating it from uncompressed textures
+
+cbntvstat_s
+
+Partly improves texture quality from uncompressed textures
+Fixes window reflections over snow in alpha channel
+
+cbntvstat_ds
+
+Partly improves texture quality from uncompressed textures
+Fixes snow inconsistency on roof heli pad with cbntvstat_dsg
+Fixes window reflections over snow in alpha channel
+
+cbntvstat_sg
+
+Partly improves texture quality from uncompressed textures
+Fixes snow inconsistency on roof heli pad with cbntvstat_s
+Fixes window reflections over snow and window barricades in alpha channel
+
+cbntvstat_dsg
+
+Partly improves texture quality from uncompressed textures
+Fixes window reflections over snow and window barricades in alpha channel
+
+cbntvstat_es, cbntvstat_rs
+
+Fixes snow drawing over burns
+
+-----------------------------------
+
+### cbgreek1_d, cbgreek1_g, cbgreek1_dg
+
+* Fixes blurry texture
+
+### cbgreek1_e
+
+* Fixes blurry texture
+* Removes alpha channel
+
+### cbgreek1_r
+
+* Fixes oversharpened texture
+* Removes alpha channel
+
+-----------------------------------
+
+### cbgreek2_d, cbgreek2_dg
+
+* Fixes blurry texture
+* Adds additional damages
+
+### cbgreek2_e
+
+* Fixes blurry texture
+* Simplifies damages in alpha channel
+
+### cbgreek2_r
+
+* Fixes major texture inconsistencies with cbgreek2_e
+* Simplifies damages in alpha channel
+
+### cbgreek2_g
+
+* Fixes blurry texture
+
+-----------------------------------
+
+### cbgreek3_e, cbgreek3_r
+
+* Fixes blurry texture
+* Removes alpha channel
+
+### cbgreek3_g
+
+* Fixes slight texture sharpness mismatch with cbgreek3
+
+
+!!! CBGREEK3_D.w3d, CBGREEK3_D_DG.w3d have different shapes
+!!! CBGREEK3_R.w3d has texture mapping errors
+
+-----------------------------------
+
+### cbgreshop_g
+
+* Fixes blurry texture
+
+### cbgreshop_e
+
+* Fixes blurry texture
+* Fixes alpha channel damage inconsistencies with cbgreshop_r
+* Simplifies damages in alpha channel
+
+### cbgreshop_r
+
+* Fixes minor texture damage brightness inconsistencies with cbgreshop_e
+* Adds more damages
+* Simplifies damages in alpha channel
+
+
+!!! CBGRESHOP_D.w3d, CBGRESHOP_DG.w3d have slightly different shapes
+
+-----------------------------------
+
+### cbnfarmhse, cbnfarmhse_s
+
+* Fixes door texture inconsistencies with cbnfarmhse_g, cbnfarmhse_sg
+
+### cbnfarmhse_r
+
+* Fixes house damages in alpha channel
+
+### cbnfarmhse_ds
+
+* Removes window barricade and holes in walls
+
+### cbnfarmhse_es
+
+* Fixes blue tint in snow
+* Fixes snow drawing over burns
+
+### cbnfarmhse_rs
+
+* Fixes minor damage inconsistencies with cbnfarmhse_es
+* Fixes house damages in alpha channel
+
+### cbnfarmhse_n, cbnfarmhse_dn, cbnfarmhse_sn, cbnfarmhse_dsn
+
+* Recreates night lights
+
+### cbnfarmhse_ng, cbnfarmhse_dng, cbnfarmhse_sng, cbnfarmhse_dsng
+
+* Recreates night lights
+* Adds lights to holes
+
+### cbnfarmhse_en
+
+* Fixes incorrect night light
+
+### cbnfarmhse_esn
+
+* Optimizes texture size
+
+
+!!! CBNFARMHSE_DN.w3d et al have z clipping windows
+
+-----------------------------------
+
+!!! cbtschlhs_es.w3d is not using snow textures
+!!! cbtschlhs_en.w3d, cbtschlhs_esn.w3d is missing alpha channel damages
+
+cbtschlhs_e
+
+Improves window damage visuals
+
+cbtschlhs_dg
+
+Fixes minor damage inconsistencies with cbtschlhs_d
+Fixes minor window reflection errors
+
+cbtschlhs_s
+
+2x upscales texture
+Fixes window reflections over snow
+
+cbtschlhs_ds
+
+2x upscales texture
+Fixes snow drawing over burns
+Fixes window reflections over snow
+
+cbtschlhs_es
+
+2x upscales texture
+Fixes small snow position mismatch with cbtschlhs_s, cbtschlhs_ds
+Improves window damage visuals
+
+cbtschlhs_rs
+
+2x upscales texture
+Fixes small snow position mismatch with cbtschlhs_s, cbtschlhs_ds
+
+cbtschlhs_sg
+
+2x upscales texture
+Fixes small snow position mismatch with cbtschlhs_s, cbtschlhs_ds
+Fixes window reflections over snow
+
+cbtschlhs_dsg
+
+2x upscales texture
+Fixes minor damage inconsistencies with cbtschlhs_d
+Fixes small snow position mismatch with cbtschlhs_s, cbtschlhs_ds
+Fixes window reflections over snow
+
+-----------------------------------
+
+cbtsmlrtl1_g
+
+Removes damages from wall
+Removes superfluous black alpha channel
+
+-----------------------------------
+
+cbtsmlrtl2_e, cbtsmlrtl2_es
+
+Fixes minor damage inconsistencies with cbtsmlrtl2_d
+Fixes bullet holes drawing over burns
+Fixes alpha channel values for broken windows
+
+!!!cbtsmlrtl2_es.w3d does not use alpha channel
+
+cbtsmlrtl2_g
+
+Removes damages from wall
+
+-----------------------------------
+
+cbtsmlrtl3_dg
+
+Fixes minor damage inconsistencies with cbtsmlrtl3_d
+
+cbtsmlrtl3_es
+
+Fixes damage progression from _ds to _rs
+
+cbtsmlrtl3_rs
+
+Fixes damage progression from _es
+
+-----------------------------------
+
+cbtsvtofc1, cbtsvtofc1_d, cbtsvtofc1_g, cbtsvtofc1_dg, cbtsvtofc1_s, cbtsvtofc1_ds
+
+Fixes misshaped window reflections
+
+cbtsvtofc1_r
+
+Fixes floating pixels in alpha channel
+
+cbtsvtofc1_es, cbtsvtofc1_rs
+
+Fixes minor snow inconsistencies with cbtsvtofc1_ds
+
+cbtsvtofc1_rs
+
+Fixes minor snow inconsistencies with cbtsvtofc1_ds
+Fixes floating pixels in alpha channel
+
+cbtsvtofc1_sg
+
+Fixes snow position mismatch with cbtsvtofc1_s
+Fixes misshaped window reflections
+
+cbtsvtofc1_dsg
+
+Fixes major texture damage inconsistencies with cbtsvtofc1_ds
+Fixes misshaped window reflections
+
+-----------------------------------
+
+cbtsvtofc2_g, cbtsvtofc2_sg
+
+Fixes window reflections over barricades (2)
+
+cbtsvtofc2_r, cbtsvtofc2_rs
+
+Fixes minor alpha channel damage inconsistencies with cbtsvtofc2_e, cbtsvtofc2_es
+
+-----------------------------------
+
+cbttent01_e, cbttent01_es
+
+Removes excess damages from alpha channel
+
+cbttent01_r, cbttent01_rs
+
+Fixes floating pixels in alpha channel
+
+-----------------------------------
+
+cbttent03, cbttent03_s
+
+Fixes red tint in shadows
+Fixes contrast levels
+
+cbttent03_d, cbttent03_ds
+
+Fixes minor texture inconsistencies with cbttent03, cbttent03_s
+Fixes red tint in shadows
+Fixes contrast levels
+
+cbttent03_e, cbttent03_es
+
+Removes grey outlines on burns
+Fixes minor texture inconsistencies with cbttent03, cbttent03_s
+Fixes red tint in shadows
+Fixes contrast levels
+
+cbttent03_r, cbttent03_rs
+
+Fixes minor texture inconsistencies with cbttent03_e, cbttent03_es
+
+-----------------------------------
+
+cbttent04_es, cbttent04_rs
+
+Fixes snow inconsistencies with cbttent04_ds
+
+-----------------------------------
+
+### cbnelecrtl
+
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes misshaped door and window reflections
+* Removes reflection from roof and concrete
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_d
+
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes window reflection strength inconsistencies with cbnelecrtl
+* Fixes window reflections over burns
+* Fixes misshaped door and window reflections
+* Removes reflection from roof and concrete
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_e
+
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Fixes minor damage inconsistencies with cbnelecrtl_d
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+
+### cbnelecrtl_r
+
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Fixes minor damage inconsistencies with cbnelecrtl_d, cbnelecrtl_e
+* Fixes damage visuals of entrances
+* Adds missing store text above entrance
+* Fixes floating pixels and pieces in alpha channel
+* Fixes broken windows in alpha channel
+
+### cbnelecrtl_g
+
+* Fixes position of wood planks
+* Fixes window barricade artifacts
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes misshaped door and window reflections
+* Removes reflection from roof and concrete
+* Removes reflection from barricades
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_dg
+
+* Fixes window barricade artifacts
+* Fixes position of store texts
+* Fixes artifacts on store windows
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes window reflection strength inconsistencies with cbnelecrtl
+* Fixes window reflections over burns
+* Fixes window reflections over barricades
+* Fixes misshaped door and window reflections
+* Removes reflection from roof and concrete
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_s
+
+* Fixes position and visibility of store texts
+* Fixes artifacts on store windows
+* Fixes artifacts and snow on roof
+* Fixes snow tiles on blue glass
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes misshaped door and window reflections
+* Fixes reflection artifacts on snow
+* Removes reflection from roof and concrete
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_ds
+
+* Fixes position and visibility of store texts
+* Fixes artifacts on store windows
+* Fixes snow tiles on blue glass
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+* Fixes window reflection strength inconsistencies with cbnelecrtl_s
+* Fixes window reflections over burns
+* Fixes misshaped door and window reflections
+* Fixes reflection artifacts on snow
+* Removes reflection from roof and concrete
+* Decreases reflection strength of blue windows
+
+### cbnelecrtl_es
+
+* Fixes position and visibility of store texts
+* Fixes artifacts on store windows
+* Fixes snow tiles on blue glass
+* Fixes minor damage inconsistencies with cbnelecrtl_ds
+* Adds missing store text above entrance
+* Removes misplaced artifact from roof
+* Replaces store logo
+
+### cbnelecrtl_rs
+
+* Fixes position and visibility of store texts
+* Fixes artifacts on store windows
+* Fixes snow tiles on blue glass
+* Fixes minor damage inconsistencies with cbnelecrtl_es
+* Fixes damage visuals of entrances
+* Adds missing store text above entrance
+* Fixes floating pixels and pieces in alpha channel
+* Fixes broken windows in alpha channel
+
+### cbnelecrtl_sg
+
+* Fixes position of wood planks
+* Fixes window barricade artifacts
+* Fixes position and visibility of store texts
+* Fixes artifacts on store windows
+* Fixes snow tiles on blue glass
+* Adds missing store text above entrance
+* Replaces store logo
+* Fixes major texture errors and inconsistencies
+* Fixes major reflection errors
+
+### cbnelecrtl_dgs
+
+* Fixes position of wood planks
+* Fixes window barricade artifacts
+* Fixes position and visibility of store texts
+* Fixes snow tiles on blue glass
+* Adds missing store text above entrance
+* Replaces store logo
+* Fixes major texture errors and inconsistencies
+* Adds missing alpha channel
+
+### cbnelecrtl_n, cbnelecrtl_ng
+
+* Fixes position and artifacts of store texts
+* Improves blue window facade light visuals
+* Improves door and window light visuals
+* Replaces store logo
+
+### cbnelecrtl_dn
+
+* Fixes position of store texts
+* Improves blue window facade light visuals and damages
+* Improves door and window light visuals and damages
+* Replaces store logo
+
+### cbnelecrtl_dng
+
+* Fixes minor damage inconsistencies with cbnelecrtl_dn
+* Fixes position of store texts
+* Improves blue window facade light visuals and damages
+* Improves door and window light visuals and damages
+* Replaces store logo
+
+### cbnelecrtl_sn
+
+* Fixes incorrect night light
+* Fixes light drawing over snow
+* Fixes position of store texts
+* Improves blue window facade light visuals and damages
+* Improves door and window light visuals and damages
+* Replaces store logo
+
+### cbnelecrtl_dn
+
+* Fixes position of store texts
+* Improves blue window facade light visuals and damages
+* Improves door and window light visuals and damages
+* Replaces store logo
+
+### cbnelecrtl_sng
+
+* Fixes light drawing over snow
+* Fixes position of store texts
+* Improves blue window facade light visuals
+* Improves door and window light visuals
+* Replaces store logo
+
+### cbnelecrtl_dsng
+
+* Fixes minor damage inconsistencies with cbnelecrtl_dsn
+* Fixes light drawing over snow
+* Fixes position of store texts
+* Improves blue window facade light visuals and damages
+* Improves door and window light visuals and damages
+* Replaces store logo
+
+### cbnelecrtl_en, cbnelecrtl_esn
+
+* Fixes incorrect night light
+
+
+!!! _G.w3d models have hole in roof
+!!! CBNELECRTL_R.w3d, CBNELECRTL_RS.w3d have mirrored texture mappings
+!!! CBNELECRTL_R.w3d, CBNELECRTL_RS.w3d have wrong entrance texture mappings
+
+-----------------------------------
+
+### cbfwfctry_e, cbfwfctry_r
+
+* Fixes texture damage inconsistencies with cbfwfctry_d
+* Fixes outlines on burns
+* Adds proper hole to roof
+
+### cbfwfctry_s, cbfwfctry_sg, cbfwfctry_dsg
+
+* Creates 2x upscale to 512x512
+* Desaturates blue snow
+* Removes superfluous snow from parts of house facade
+* Adds missing window reflections
+
+### cbfwfctry_ds
+
+* Creates 2x upscale to 512x512
+* Desaturates blue snow
+* Removes superfluous snow from parts of house facade
+* Adds missing window damages
+* Removes barricades from window reflections
+
+### cbfwfctry_es
+
+* Creates 2x upscale to 512x512
+* Desaturates blue snow
+* Removes superfluous snow from parts of house facade
+* Fixes incorrect damages in alpha channel
+
+### cbfwfctry_rs
+
+* Creates 2x upscale to 512x512
+* Desaturates blue snow
+* Removes superfluous snow from parts of house facade
+* Adds proper hole to roof
+
+### cbfwfctry_dn, cbfwfctry_dng
+
+* Fixes light on broken windows
+
+### cbfwfctry_ng
+
+* Creates 2x upscale to 512x512
+
+-----------------------------------
+
+### cbngovbuil_base
+
+* Fixes tiling on ground plate
+
+### cbngovbuil_base_d
+
+* Fixes tiling on ground plate
+* Fixes bright highlights on damages
+* Removes a few of the texture damages to have a greater damage transition to cbngovbuil_base_e
+
+### cbngovbuil_base_e, cbngovbuil_base_r
+
+* Fixes tiling on ground plate
+* Fixes bright highlights on damages
+* Changes roof damages in alpha channel
+
+### cbngovbuil_base_s
+
+* Fixes tiling on ground plate
+
+### cbngovbuil_base_ds
+
+* Fixes tiling on ground plate
+* Fixes bright highlights on damages
+* Fixes snow drawing over burns
+
+### cbngovbuil_base_es, cbngovbuil_base_rs
+
+* Fixes tiling on ground plate
+* Fixes bright highlights on damages
+* Fixes snow drawing over burns
+* Fixes floating pixels in alpha channel
+* Changes roof damages in alpha channel
+
+### cbngovbuil_base_en, cbngovbuil_base_rn, cbngovbuil_base_esn, cbngovbuil_base_rsn
+
+* Fixes incorrect night light
+
+-----------------------------------
+
+### cbngovbuil_st
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+
+### cbngovbuil_st_d
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes bright highlights on damages
+* Removes roof damage in alpha channel
+
+### cbngovbuil_st_e
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes texture damage inconsistencies with cbngovbuil_st_d
+* Fixes floating damages in alpha channel
+* Adds additional damages in alpha channel
+
+### cbngovbuil_st_r
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes texture damage inconsistencies with cbngovbuil_st_d
+* Fixes alpha channel damage inconsistencies with cbngovbuil_st_e
+* Fixes floating damages in alpha channel
+* Changes damages in alpha channel
+
+### cbngovbuil_st_s
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Darkens snow in shade
+
+### cbngovbuil_st_ds
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes snow drawing over burns
+* Removes roof damage in alpha channel
+
+### cbngovbuil_st_es
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes snow drawing over burns
+* Fixes minor texture damage inconsistencies with cbngovbuil_st_ds
+* Fixes floating damages in alpha channel
+* Adds additional damages in alpha channel
+
+### cbngovbuil_st_rs
+
+* Fixes tower visuals
+* Fixes railing visuals
+* Fixes pavilion window visuals
+* Fixes snow drawing over burns
+* Fixes minor texture damage inconsistencies with cbngovbuil_st_ds
+* Fixes alpha channel damage inconsistencies with cbngovbuil_st_es
+* Fixes floating damages in alpha channel
+* Changes damages in alpha channel
+
+
+!!! CBNGOVBUIL_D.w3d is missing alpha on pavilion windows
+!!! CBNGOVBUIL_D.w3d has roof object is floating above roof
+!!! Pavilion wall is not 2 sided
+!!! CBNGOVBUIL_R.w3d has pavilion is floating above roof
+!!! Roof mesh does not sit tight on walls
+!!! CBNGOVBUIL_R.w3d et al use bad ground damage texture and mesh
+
+-----------------------------------
+
+### cbngovbuil_wall01_e
+
+* Fixes floating damages in alpha channel
+* Changes damages in alpha channel
+
+### cbngovbuil_wall01_r
+
+* Fixes minor alpha channel damage inconsistencies with cbngovbuil_wall01_e
+* Fixes floating damages in alpha channel
+* Changes damages in alpha channel
+
+### cbngovbuil_wall01_s
+
+* Fixes snow inconsistencies with cbngovbuil_wall01_sg
+
+### cbngovbuil_wall01_ds, cbngovbuil_wall01_dsg
+
+* Fixes snow drawing over burns
+
+### cbngovbuil_wall01_es, cbngovbuil_wall01_rs
+
+* Fixes snow drawing over burns
+* Adds missing alpha channel
+
+### cbngovbuil_wall01_n, cbngovbuil_wall01_ng
+
+* Adds house lights to top floor
+* Darkens door lights at bottom floor
+
+### cbngovbuil_wall01_dn, cbngovbuil_wall01_dng
+
+* Adds house lights to top floor
+* Adds more damages to door lights
+
+### cbngovbuil_wall01_en, cbngovbuil_wall01_rn, cbngovbuil_wall01_esn, cbngovbuil_wall01_rsn
+
+* Fixes incorrect night light
+
+### cbngovbuil_wall01_sn, cbngovbuil_wall01_sng
+
+* Adds house lights to top floor
+* Darkens door lights at bottom floor
+* Darkens snow at door lights
+
+### cbngovbuil_wall01_dsn, cbngovbuil_wall01_dsng
+
+* Adds house lights to top floor
+* Adds more damages to door lights
+* Darkens snow at door lights
+
+-----------------------------------
+
+### cbngovbuil_wall02, cbngovbuil_wall02_d, cbngovbuil_wall02_dg
+
+* Fixes dark entrance visuals
+
+### cbngovbuil_wall02_e
+
+* Fixes dark entrance visuals
+* Decreases darkness of texture damages
+* Fixes alpha channel damage inconsistencies with cbngovbuil_wall02_r
+* Fixes floating pixels in alpha channel
+* Decreases amount of damages in alpha channel
+
+### cbngovbuil_wall02_r
+
+* Fixes dark entrance visuals
+* Fixes minor texture damage inconsistencies with cbngovbuil_wall02_e
+* Fixes alpha channel damage inconsistencies with cbngovbuil_wall02_e
+* Fixes floating pixels in alpha channel
+* Decreases amount of damages in alpha channel
+
+### cbngovbuil_wall02_g
+
+* Fixes dark entrance visuals
+* Removes bullet holes
+
+### cbngovbuil_wall02_s
+
+* Fixes dark entrance visuals
+
+### cbngovbuil_wall02_ds, cbngovbuil_wall02_dsg
+
+* Fixes dark entrance visuals
+* Fixes snow drawing over burns
+
+### cbngovbuil_wall02_es, cbngovbuil_wall02_rs
+
+* Fixes dark entrance visuals
+* Fixes snow drawing over burns
+* Adds missing alpha channel
+
+### cbngovbuil_wall02_sg
+
+* Fixes dark entrance visuals
+* Removes bullet holes
+* Fixes roof snow discrepancies with cbngovbuil_wall02_s
+
+### cbngovbuil_wall02_n, cbngovbuil_wall02_dn
+
+* Improves window lights
+* Improves door lights
+* Adds lights to entrance
+
+### cbngovbuil_wall02_ng, cbngovbuil_wall02_dng
+
+* Fixes faint lights drawing over window barricades
+* Improves window lights
+* Improves door lights
+* Adds lights to entrance
+
+### cbngovbuil_wall02_en, cbngovbuil_wall02_rn, cbngovbuil_wall02_esn, cbngovbuil_wall02_rsn
+
+* Fixes incorrect night light
+
+### cbngovbuil_wall02_sn, cbngovbuil_wall02_dsn
+
+* Fixes faint lights drawing over snow
+* Improves window lights
+* Improves door lights
+* Adds lights to entrance
+* Darkens snow at door lights
+
+### cbngovbuil_wall02_sng, cbngovbuil_wall02_dsng
+
+* New
+
+
+!!! CBNGOVBUIL_DG.w3d does not use cbngovbuil_wall02_sg
+!!! CBNGOVBUIL_DSG.w3d does not use correct texture on pavilion
+!!! CBNGOVBUIL_SNG.w3d and CBNGOVBUIL_DSNG.w3d can use new cbngovbuil_wall02_sng, cbngovbuil_wall02_dsng textures
