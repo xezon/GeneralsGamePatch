@@ -71,3 +71,4 @@ In our first survey we asked the community what they think about addressing bugs
 ## DONATE
 
 [Donation info page](DONATE.md)
+Test commit by ManuelZH
